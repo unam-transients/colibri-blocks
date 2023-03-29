@@ -1,7 +1,7 @@
 {
   "project": {
     "identifier": "0001",
-    "name": "twilight flats"
+    "name": "twilight flats in yzgr"
   },
   "identifier": "0",
   "visits": [
@@ -15,7 +15,8 @@
       },
       "command": "twilightflatsvisit 7 y",
       "estimatedduration": "2m"
-    },    {
+    },
+    {
       "identifier": "3",
       "name": "twilight flats in z",
       "targetcoordinates": {
@@ -24,17 +25,6 @@
         "zenithdistance": "60d"
       },
       "command": "twilightflatsvisit 7 z",
-      "estimatedduration": "2m"
-    },
-    {
-      "identifier": "2",
-      "name": "twilight flats in i",
-      "targetcoordinates": {
-        "type": "fixed",
-        "azimuth": "90d",
-        "zenithdistance": "60d"
-      },
-      "command": "twilightflatsvisit 7 i",
       "estimatedduration": "2m"
     },
     {
@@ -58,17 +48,6 @@
       },
       "command": "twilightflatsvisit 7 r",
       "estimatedduration": "2m"
-    },
-    {
-      "identifier": "100",
-      "name": "darks",
-      "targetcoordinates": {
-        "type": "fixed",
-        "azimuth": "90d",
-        "zenithdistance": "60d"
-      },
-      "command": "darksvisit 5",
-      "estimatedduration": "4m"
     }
   ],
   "constraints": {
