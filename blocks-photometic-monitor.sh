@@ -89,7 +89,8 @@ do
   ],
   "constraints": {
     "maxskybrightness": "nauticaltwilight",
-    "maxairmass": "1.5",
+    "minairmass": "1.6",
+    "maxairmass": "2.0",
     "minmoondistance": "15d"
   },
   "persistent": "false"
