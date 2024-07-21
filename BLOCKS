@@ -51,8 +51,9 @@ load b 1 0004-focus-without-witness-*
 #load v 1 0008-pointing-map-*
 
 load w 1 0004-focus-with-witness-*
-load x 1 0001-twilight-flats-evening-0-yzir day 0 2
-load x 1 0001-twilight-flats-evening-0-yzgr day 1 2
+#load x 1 0001-twilight-flats-evening-0-yzir day 0 2
+#load x 1 0001-twilight-flats-evening-0-yzgr day 1 2
+load x 1 0001-twilight-flats-evening-0
 load y 3 0002-biases-0
 load z 3 0003-darks-0
 
