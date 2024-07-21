@@ -1,0 +1,25 @@
+{
+  "project": {
+    "identifier": "0001",
+    "name": "twilight flats"
+  },
+  "identifier": "0",
+  "visits": [
+    {
+      "identifier": "1",
+      "name": "twilight flats in r",
+      "targetcoordinates": {
+        "type": "fixed",
+        "azimuth": "90d",
+        "zenithdistance": "60d"
+      },
+      "command": "twilightflatsvisit 7 r",
+      "estimatedduration": "2m"
+    }
+  ],
+  "constraints": {
+    "minmoondistance": "15d",
+    "maxskybrightness": "civiltwilight",
+    "minskybrightness": "civiltwilight"
+  }
+}
