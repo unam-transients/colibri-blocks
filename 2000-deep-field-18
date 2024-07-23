@@ -1,0 +1,28 @@
+{
+  "project": {
+    "identifier": "2000",
+    "name": "deep fields"
+  },
+  "identifier": "18",
+  "name": "deep field near 18h +20d",
+  "visits": [
+    {
+      "identifier": "1",
+      "name": "grid in r",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "18:00:00",
+        "delta"  : "+20:00:00",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 5 1 60 r",
+      "estimatedduration": "6m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "maxairmass": "1.5",
+    "minmoondistance": "15d"
+  },
+  "persistent": "true"
+}
