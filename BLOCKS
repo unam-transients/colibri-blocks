@@ -49,14 +49,16 @@ load e 1 2001-deep-field-18
 #load g 1 0007-tokovinin-1
 
 
-#load v 1 0005-photometic-monitor-*
-#load v 1 0008-pointing-map-*
+#load u 1 0005-photometic-monitor-*
+#load u 1 0008-pointing-map-*
 
-load w 1 0004-focus-with-witness-*
-#load x 1 0001-twilight-flats-evening-0-yzir day 0 2
-#load x 1 0001-twilight-flats-evening-0-yzgr day 1 2
-load x 1 0001-twilight-flats-evening-0
-load y 3 0002-biases-0
-load z 3 0003-darks-0
+load v 1 0004-focus-with-witness-*
+#load w 1 0001-twilight-flats-evening-0-yzir day 0 2
+#load w 1 0001-twilight-flats-evening-0-yzgr day 1 2
+load w 1 0001-twilight-flats-evening-0
+load x 3 0002-biases-0
+load y 3 0003-darks-0
 
 #load z 1 0002-bias-map-*
+
+load z 1 0000-idle-into-wind
