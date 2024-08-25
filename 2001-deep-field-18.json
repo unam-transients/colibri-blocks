@@ -15,7 +15,7 @@
         "delta"  : "+20:00:00",
         "equinox": "2000"
       },
-      "command": "fullgridvisit 1 5 1 60 r",
+      "command": "dithervisit 16 {30 30} {r r} false",
       "estimatedduration": "24m"
     }
   ],
