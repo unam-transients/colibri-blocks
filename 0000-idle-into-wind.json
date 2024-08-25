@@ -1,0 +1,22 @@
+{
+  "project": {
+    "identifier": "0000",
+    "name": "idle into wind"
+  },
+  "identifier": "0",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "idle into wind",
+      "targetcoordinates": {
+        "type": "wind"
+      },
+      "command": "idle",
+      "estimatedduration": "1m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "civiltwilight"
+  },
+  "persistent": true
+}
