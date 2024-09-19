@@ -46,7 +46,7 @@ load b 1 0004-focus-without-witness-*
 #load e 1 2001-deep-field-18
 
 #load f 1 0018-scale-0
-load g 1 0007-tokovinintests-*
+load g 1 0007-tokovinintest-*
 
 
 #load u 1 0005-photometic-monitor-*
