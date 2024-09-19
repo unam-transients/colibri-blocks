@@ -134,25 +134,25 @@ EOF
 }
 EOF
 
-  cat <<EOF >0007-tokovinin-$suffix.json
+  cat <<EOF >0007-tokovinintest-$suffix.json
 {
   "project": {
     "identifier": "0007",
-    "name": "tokovinin visits"
+    "name": "tokovinin tests"
   },
   "identifier": "$blockid",
   "name": "focusing near ${suffix}h +25d",
   "visits": [
     {
       "identifier": "0",
-      "name": "tokovininvisit",
+      "name": "tokovinin test visit",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "$alpha",
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "tokovininvisit",
+      "command": "tokovinintestvisit",
       "estimatedduration": "1m"
     }
   ],
