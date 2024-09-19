@@ -134,6 +134,39 @@ EOF
 }
 EOF
 
+  cat <<EOF >0007-tokovinin-$suffix.json
+{
+  "project": {
+    "identifier": "0007",
+    "name": "tokovinin visits"
+  },
+  "identifier": "$blockid",
+  "name": "focusing near ${suffix}h +25d",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "tokovininvisit",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "tokovininvisit",
+      "estimatedduration": "1m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "minha": "-3h",
+    "maxha": "+3h",
+    "minmoondistance": "15d",
+    "minfocusdelay": "900"
+  },
+  "persistent": "true"
+}
+EOF
+
 # These are VT ≈ 12.0 and VT ≈ 7.5 Tycho 2 stars spaced every hour at +25d.
 # They were selected using http://vizier.u-strasbg.fr/.
 
