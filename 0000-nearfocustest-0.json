@@ -15,7 +15,7 @@
         "delta"  : "+50:41:32",
         "equinox": "2000"
       },
-      "command": "nearfocustest",
+      "command": "nearfocustestvisit",
       "estimatedduration": "5m"
     }
   ],
