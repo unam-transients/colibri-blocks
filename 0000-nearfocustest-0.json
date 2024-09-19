@@ -1,0 +1,27 @@
+{
+  "project": {
+    "identifier": "0000",
+    "name": "near-focus tests"
+  },
+  "identifier": "0",
+  "name": "near-focus test near +5h 25d",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "near-focus test",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "05:00:24.285",
+        "delta"  : "+24:09:45.83",
+        "equinox": "2000"
+      },
+      "command": "nearfocustest",
+      "estimatedduration": "5m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "civiltwilight",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
