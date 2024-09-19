@@ -141,7 +141,7 @@ EOF
     "name": "tokovinin tests"
   },
   "identifier": "$blockid",
-  "name": "focusing near ${suffix}h +25d",
+  "name": "tokovinin test near ${suffix}h +25d",
   "visits": [
     {
       "identifier": "0",
