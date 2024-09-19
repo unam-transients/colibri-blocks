@@ -162,8 +162,7 @@ EOF
     "maxha": "+3h",
     "minmoondistance": "15d",
     "maxfocusdelay": "1800"
-  },
-  "persistent": "true"
+  }
 }
 EOF
 
