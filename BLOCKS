@@ -40,6 +40,8 @@ load b 1 0004-focus-without-witness-*
 #load c 1 0014-focus-tilt-2
 #load c 1 0014-focus-tilt-3
 
+load c 1 1001-grb-241018a
+
 #load d 1 0005-photometic-monitor-*
 #load e 1 2000-deep-field-13
 
