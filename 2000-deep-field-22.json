@@ -1,21 +1,21 @@
 {
   "project": {
-    "identifier": "2001",
-    "name": "deep fields (2x2)"
+    "identifier": "2000",
+    "name": "deep fields"
   },
-  "identifier": "18",
-  "name": "deep field (2x2) near 18h +20d",
+  "identifier": "22",
+  "name": "deep field (2x2) near 22h +20d",
   "visits": [
     {
       "identifier": "1",
       "name": "grid in r",
       "targetcoordinates": {
         "type"   : "equatorial",
-        "alpha"  : "18:00:00",
+        "alpha"  : "22:00:00",
         "delta"  : "+20:00:00",
         "equinox": "2000"
       },
-      "command": "dithervisit 16 {30 30} {r r} false",
+      "command": "dithervisit 16 60 r",
       "estimatedduration": "24m"
     }
   ],

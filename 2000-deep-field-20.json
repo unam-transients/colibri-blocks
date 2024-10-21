@@ -3,8 +3,8 @@
     "identifier": "2000",
     "name": "deep fields"
   },
-  "identifier": "18",
-  "name": "deep field near 20h +20d",
+  "identifier": "20",
+  "name": "deep field (2x2) near 20h +20d",
   "visits": [
     {
       "identifier": "1",
@@ -15,8 +15,8 @@
         "delta"  : "+20:00:00",
         "equinox": "2000"
       },
-      "command": "dithervisit 9 60 r",
-      "estimatedduration": "6m"
+      "command": "dithervisit 16 60 r",
+      "estimatedduration": "24m"
     }
   ],
   "constraints": {
@@ -24,5 +24,5 @@
     "maxairmass": "1.5",
     "minmoondistance": "15d"
   },
-  "persistent": "true"
+  "persistent": "false"
 }
