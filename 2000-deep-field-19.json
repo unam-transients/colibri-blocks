@@ -3,25 +3,25 @@
     "identifier": "2000",
     "name": "deep fields"
   },
-  "identifier": "100",
-  "name": "deep field near 11h +45d",
+  "identifier": "19",
+  "name": "deep field (2x2) near 19h +20d",
   "visits": [
     {
       "identifier": "1",
       "name": "grid in r",
       "targetcoordinates": {
         "type"   : "equatorial",
-        "alpha"  : "11:00:00",
-        "delta"  : "+45:00:00",
+        "alpha"  : "19:00:00",
+        "delta"  : "+20:00:00",
         "equinox": "2000"
       },
-      "command": "gridvisit 1 9 1 60 r",
-      "estimatedduration": "12m"
+      "command": "dithervisit 16 60 re",
+      "estimatedduration": "24m"
     }
   ],
   "constraints": {
     "maxskybrightness": "nauticaltwilight",
-    "maxha": "0",
+    "maxairmass": "1.5",
     "minmoondistance": "15d"
   },
   "persistent": "false"

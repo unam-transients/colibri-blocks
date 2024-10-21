@@ -28,10 +28,17 @@
 #
 # If no time specification is given, the action is carried out every day.
 
-#unload * * *
+unload * * *
 
 load a 1 0004-initial-focus-*
 load b 1 0004-focus-without-witness-*
+
+load e 3 2000-deep-field-*
+
+load v 1 0001-twilight-flats-evening-0
+load w 3 0002-biases-0
+load x 3 0003-darks-0
+load y 1 0004-focus-with-witness-*
 
 #load c 1 0012-bright-star-1
 
@@ -45,7 +52,6 @@ load b 1 0004-focus-without-witness-*
 #load d 1 0005-photometic-monitor-*
 #load e 1 2000-deep-field-13
 
-load e 3 2001-deep-field-*
 
 #load f 1 0018-scale-0
 #load f 1 0000-nearfocustest-*
@@ -55,12 +61,8 @@ load e 3 2001-deep-field-*
 #load u 1 0005-photometic-monitor-*
 #load u 1 0008-pointing-map-*
 
-load v 1 0004-focus-with-witness-*
 #load w 1 0001-twilight-flats-evening-0-yzir day 0 2
 #load w 1 0001-twilight-flats-evening-0-yzgr day 1 2
-load w 1 0001-twilight-flats-evening-0
-load x 3 0002-biases-0
-load y 3 0003-darks-0
 
 #load z 1 0002-bias-map-*
 
