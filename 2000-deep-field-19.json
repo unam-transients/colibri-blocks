@@ -15,7 +15,7 @@
         "delta"  : "+20:00:00",
         "equinox": "2000"
       },
-      "command": "dithervisit 16 60 re",
+      "command": "dithervisit 16 60 r",
       "estimatedduration": "24m"
     }
   ],
