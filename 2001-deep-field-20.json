@@ -11,7 +11,7 @@
       "name": "grid in r",
       "targetcoordinates": {
         "type"   : "equatorial",
-        "alpha"  : "18:00:00",
+        "alpha"  : "20:00:00",
         "delta"  : "+20:00:00",
         "equinox": "2000"
       },
