@@ -85,7 +85,7 @@ EOF
     "minmoondistance": "15d",
     "minfocusdelay": "1800"
   },
-  "persistent": "true"
+  "persistent": "false"
 }
 EOF
 
