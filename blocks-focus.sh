@@ -85,7 +85,7 @@ EOF
     "minmoondistance": "15d",
     "minfocusdelay": "1800"
   },
-  "persistent": "false"
+  "persistent": "true"
 }
 EOF
 
@@ -125,12 +125,9 @@ EOF
   ],
   "constraints": {
     "maxskybrightness": "nauticaltwilight",
-    "minha": "-3h",
-    "maxha": "+3h",
-    "minmoondistance": "15d",
-    "minfocusdelay": "900"
+    "minmoondistance": "15d"
   },
-  "persistent": "true"
+  "persistent": "false"
 }
 EOF
 
