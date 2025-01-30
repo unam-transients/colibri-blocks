@@ -7,11 +7,20 @@
   "visits": [
     {
       "identifier": "0",
-      "name": "biases",
+      "name": "biases 2x2",
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "biasesvisit",
+      "command": "biasesvisit 10 2",
+      "estimatedduration": "1m"
+    },    
+    {
+      "identifier": "1",
+      "name": "biases 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "biasesvisit 10 1",
       "estimatedduration": "1m"
     }
   ],
