@@ -1,5 +1,38 @@
-# priority subpriority repeats programidentifier blockidentifier visitidentifier alpha delta exposurerepeats exposuretime filters name
+# This file specifies targets to observe. At 00:00 UTC, these targets
+# are automatically loaded.
+#
+# The fields are:
+#
+# 1. Priority from 0 to 10. 0 is highest and 10 is lowest priority.
+#
+# 2. Subpriority from a to z. a is highest and z is lowest subpriority.
+#
+# 3. Repeats. How many times this block should be run.
+#
+# 4. Program identifier. If necessary, add the corresponding name to
+# NAMES.
+#
+# 5. Block identifier. If necessary, add the corresponding name to
+# NAMES.
+#
+# 6 and 7. The coordinates alpha and delta. These can be either
+# sexagesimal or decimal degrees with a "d" suffix.
+#
+# 8. Exposure repeats. The number of exposures in each filter.
+#
+# 9. Exposure time. Individual exposure time in seconds.
+#
+# 10. Filters. This can be: any single filter (g, r, i, B, gri) or one
+# of the combinations g/r, g/r/z, g/i, g/i/z, r/i, r/i/z, g/r/i/z, or
+# g/r/i/z/y.
+#
+# 11 and more. The visit name. You can use more than one field here.
 
-10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8 10 60 g/r/i AT2025bbo
+# Lines that begin with # are ignored.
+
+# priority subpriority repeats programidentifier blockidentifier
+# visitidentifier alpha delta exposurerepeats exposuretime filters name
+
+10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8 10 60 g/r/i AT2025bbo 
 10 a  3 1001 20250206212530 6 39.149d     53.854d     10 60 g/r   2MASS 02363571+5351138
 
