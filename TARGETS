@@ -1,7 +1,11 @@
+# TARGETS
+#
 # This file specifies targets to observe. At 00:00 UTC, these targets
 # are automatically loaded into the block pool.
 #
-# The fields are:
+# Lines that begin with # are ignored.
+#
+# For targets, the fields are:
 #
 # 1. Priority from 1 to 10, with 1 being highest priority and 10 being
 # lowest priority. Priority 0 is reserved for focus blocks. As a guide,
@@ -21,6 +25,8 @@
 # positional uncertainty (essentially, from SVOM, Swift, or Fermi/LAT).
 #
 # 2. Subpriority from a to z. a is highest and z is lowest subpriority.
+# This is used to assign relative importance within blocks of the same
+# priority.
 #
 # 3. Repeats. How many times this block should be run.
 #
@@ -33,37 +39,57 @@
 # 6 and 7. The coordinates alpha and delta. These can be either
 # sexagesimal or decimal degrees with a "d" suffix.
 #
-# 8. The maximum airmass at which the target should be observed. The
-# telescope is limited to zenith distances of 72d or less, which
-# correspond to airmasses of 3.2 and less. Observations are further
-# constrained to astronomical twilight or night and to being no closer
-# than 15d from the Moon.
+# 8. Exposure repeats. The number of exposures in each filter.
 #
-# 9. Exposure repeats. The number of exposures in each filter.
+# 9. Exposure time. Individual exposure time in seconds.
 #
-# 10. Exposure time. Individual exposure time in seconds.
-#
-# 11. Filters. This can be: any single filter (g, r, i, B, gri) or one
+# 10. Filters. This can be: any single filter (g, r, i, B, gri) or one
 # of the combinations g/r, g/r/z, g/i, g/i/z, r/i, r/i/z, g/r/i/z, or
 # g/r/i/z/y.
 #
-# 12 and more. The visit name. You can use more than one field here.
+# 11 and more. The visit name. You can use more than one field here.
+#
+# BLOCK LENGTH
 #
 # Try to keep individual blocks to less than about half an hour in
 # length. For example:
 #
 #  - with 1 filter  use at most 24 x 60 seconds
 #  - with 2 filters use at most 12 x 60 seconds
-#  - with 3 filters use at most  8 x 60 seconds.
+#  - with 3 filters use at most  8 x 60 seconds
 #
-# Lines that begin with # are ignored.
+# If you need more exposure time, run a shorter block several times by
+# setting repeats.
 #
-# Examples (commented with #):
+# CONSTRAINTS
+# 
+# The default constraints are:
 #
-# 10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8 3.0  8 60 g/r/i AT2025bbo 
-# 10 a  1 1001 20250206212530 6 39.149d     +53.854d    2.0 10 60 g/r   2MASS 02363571+5351138
+#   maxairmass      2.0
+#   minha           -12h
+#   maxha           +12h
+#   minmoondistance 15d
+#
+# These can be changed by using a line consisting of one of these
+# keywords followed by a value. The new value applies for subsequent
+# targets. For example:
+#
+# 10 a  1 1001 20250206212530 6 39.149d     +53.854d    10 60 g/r   2MASS 02363571+5351138
+# maxairmass 3.0
+# 10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8  8 60 g/r/i AT2025bbo 
+#
+# This will apply the default constraints of maxairmass 2.0 to the
+# observations of 2MASS 02363571+5351138 but relax the constraints to
+# maxairmass 3.0 for the observations of AT2025bbo.
+#
+# The telescope is limited to zenith distances of 72d or less, which
+# correspond to airmasses of 3.2 and less. Observations are further
+# constrained to astronomical twilight or night.
 
-# priority subpriority repeats programidentifier blockidentifier visitidentifier alpha delta maxairmass exposurerepeats exposuretime filters name ...
+# priority subpriority repeats programidentifier blockidentifier visitidentifier alpha delta exposurerepeats exposuretime filters name ...
 
+maxairmass 3.0
 10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8 3.0  8 60 g/r/i AT2025bbo 
+maxairmass 2.0
 10 a  1 1001 20250206212530 6 39.149d     +53.854d    2.0 10 60 g/r   2MASS 02363571+5351138
+
