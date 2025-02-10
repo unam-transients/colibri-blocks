@@ -26,18 +26,18 @@ sed '
   s/^  *//
   /^$/d
 ' |
-while read priority precedence repeats programidentifier blockidentifier visitidentifier alpha delta exposurerepeats exposuretime filters visitname
+while read priority subpriority repeats programidentifier blockidentifier visitidentifier alpha delta exposurerepeats exposuretime filters visitname
 do
   # We abuse the variable names to allow directives like "maxairmass".
   case $priority in
   maxairmass)
-    maxairmass=$precedence
+    maxairmass=$subpriority
     ;;
   minha)
-    minha=$precedence
+    minha=$subpriority
     ;;
   maxha)
-    maxha=$precedence
+    maxha=$subpriority
     ;;
   minmoondistance)
     minmoondistance=$minmoondistance
@@ -46,8 +46,9 @@ do
     programname=$(
       awk -v key=$programidentifier '
         $1 == key { 
-          for (i = 2; i <= NF; ++i) 
-            printf("%s ", $i); 
+          printf("%s", $2); 
+          for (i = 3; i <= NF; ++i) 
+            printf(" %s", $i); 
           printf("\n");
         }
       ' NAMES
@@ -55,8 +56,9 @@ do
     blockname=$(
       awk -v key=$programidentifier/$blockidentifier '
         $1 == key {
-          for (i = 2; i <= NF; ++i) 
-            printf("%s ", $i); 
+          printf("%s", $2); 
+          for (i = 3; i <= NF; ++i) 
+            printf(" %s", $i); 
           printf("\n");
         }
       ' NAMES
@@ -97,7 +99,7 @@ do
         "equinox": "2000"
       },
       "command": "dithervisit $exposurerepeats $exposuretime $filters",
-      "estimatedduration": "2100"
+      "estimatedduration": "$estimatedduration"
     }
   ],
   "constraints": {
@@ -107,11 +109,10 @@ do
     "maxha": "$maxha",
     "minmoondistance": "$minmoondistance"
   },
-  "estimatedduration": "$estimatedduration",
   "persistent": "false"
 }
 EOF
-    echo >>$blocks "load $precedence $repeats $programidentifier-$blockidentifier-$visitidentifier"
+    echo >>$blocks "load $subpriority $repeats $programidentifier-$blockidentifier-$visitidentifier"
     ;;
   esac
 done 

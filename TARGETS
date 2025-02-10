@@ -89,7 +89,7 @@
 # priority subpriority repeats programidentifier blockidentifier visitidentifier alpha delta exposurerepeats exposuretime filters name ...
 
 maxairmass 3.0
-10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8 3.0  8 60 g/r/i AT2025bbo 
+10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8  8 60 g/r/i AT2025bbo 
 maxairmass 2.0
-10 a  1 1001 20250206212530 6 39.149d     +53.854d    2.0 10 60 g/r   2MASS 02363571+5351138
+10 a  1 1001 20250206212530 6 39.149d     +53.854d    10 60 g/r   2MASS 02363571+5351138
 
