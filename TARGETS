@@ -1,9 +1,24 @@
 # This file specifies targets to observe. At 00:00 UTC, these targets
-# are automatically loaded.
+# are automatically loaded into the block pool.
 #
 # The fields are:
 #
-# 1. Priority from 0 to 10. 0 is highest and 10 is lowest priority.
+# 1. Priority from 1 to 10, with 1 being highest priority and 10 being
+# lowest priority. Priority 0 is reserved for focus blocks. As a guide,
+# automatic alerts are generated with the following priorities:
+#
+#   2 = multi-messenger
+#   3 = LVC
+#   4 = SVOM/ECL, SVOM/MXT, or SVOM/VT
+#   5 = Fermi/LAT
+#   7 = Fermi/GBM and SGRB
+#   8 = Swift
+#   10 = everything else
+#
+# Note that while alerts are generated for LVC and Fermi/GBM, the
+# positional uncertainties are so large that they will not be selectable
+# unless there is a coincident alert with a sufficiently small
+# positional uncertainty (essentially, from SVOM, Swift, or Fermi/LAT).
 #
 # 2. Subpriority from a to z. a is highest and z is lowest subpriority.
 #
@@ -18,21 +33,37 @@
 # 6 and 7. The coordinates alpha and delta. These can be either
 # sexagesimal or decimal degrees with a "d" suffix.
 #
-# 8. Exposure repeats. The number of exposures in each filter.
+# 8. The maximum airmass at which the target should be observed. The
+# telescope is limited to zenith distances of 72d or less, which
+# correspond to airmasses of 3.2 and less. Observations are further
+# constrained to astronomical twilight or night and to being no closer
+# than 15d from the Moon.
 #
-# 9. Exposure time. Individual exposure time in seconds.
+# 9. Exposure repeats. The number of exposures in each filter.
 #
-# 10. Filters. This can be: any single filter (g, r, i, B, gri) or one
+# 10. Exposure time. Individual exposure time in seconds.
+#
+# 11. Filters. This can be: any single filter (g, r, i, B, gri) or one
 # of the combinations g/r, g/r/z, g/i, g/i/z, r/i, r/i/z, g/r/i/z, or
 # g/r/i/z/y.
 #
-# 11 and more. The visit name. You can use more than one field here.
-
+# 12 and more. The visit name. You can use more than one field here.
+#
+# Try to keep individual blocks to less than about half an hour in
+# length. For example:
+#
+#  - with 1 filter  use at most 24 x 60 seconds
+#  - with 2 filters use at most 12 x 60 seconds
+#  - with 3 filters use at most  8 x 60 seconds.
+#
 # Lines that begin with # are ignored.
+#
+# Examples (commented with #):
+#
+# 10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8 3.0  8 60 g/r/i AT2025bbo 
+# 10 a  1 1001 20250206212530 6 39.149d     +53.854d    2.0 10 60 g/r   2MASS 02363571+5351138
 
-# priority subpriority repeats programidentifier blockidentifier
-# visitidentifier alpha delta exposurerepeats exposuretime filters name
+# priority subpriority repeats programidentifier blockidentifier visitidentifier alpha delta maxairmass exposurerepeats exposuretime filters name ...
 
-10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8 10 60 g/r/i AT2025bbo 
-10 a  3 1001 20250206212530 6 39.149d     53.854d     10 60 g/r   2MASS 02363571+5351138
-
+10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8 3.0  8 60 g/r/i AT2025bbo 
+10 a  1 1001 20250206212530 6 39.149d     +53.854d    2.0 10 60 g/r   2MASS 02363571+5351138

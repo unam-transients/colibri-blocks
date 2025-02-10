@@ -19,7 +19,7 @@ sed '
   s/^  *//
   /^$/d
 ' |
-while read priority precedence repeats programidentifier blockidentifier visitidentifier alpha delta exposurerepeats exposuretime filters visitname
+while read priority precedence repeats programidentifier blockidentifier visitidentifier alpha delta maxairmass exposurerepeats exposuretime filters visitname
 do
   programname=$(
     awk -v key=$programidentifier '
@@ -80,7 +80,7 @@ do
   ],
   "constraints": {
     "maxskybrightness": "astronomicaltwilight",
-    "maxairmass": "2.0",
+    "maxairmass": "$maxairmass",
     "minmoondistance": "15d"
   },
   "estimatedduration": "$estimatedduration",
