@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -x
-
 blocks="BLOCKS-targets"
 
 rm -f $blocks
