@@ -83,7 +83,7 @@ do
     "maxairmass": "2.0",
     "minmoondistance": "15d"
   },
-  "estimatedduration": "$estimatedduration"
+  "estimatedduration": "$estimatedduration",
   "persistent": "false"
 }
 EOF
