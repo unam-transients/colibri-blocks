@@ -52,6 +52,7 @@ do
     "minmoondistance": "15d",
     "minfocusdelay": "14400"
   },
+  "priority": "0",
   "persistent": "true"
 }
 EOF
@@ -85,6 +86,7 @@ EOF
     "minmoondistance": "15d",
     "minfocusdelay": "1800"
   },
+  "priority": "0",
   "persistent": "true"
 }
 EOF
@@ -159,7 +161,8 @@ EOF
     "maxha": "+3h",
     "minmoondistance": "15d",
     "maxfocusdelay": "1800"
-  }
+  },
+  "persistent": "false"
 }
 EOF
 
