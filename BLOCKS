@@ -33,13 +33,12 @@ unload * * *
 load a 1 0004-initial-focus-*
 load b 1 0004-focus-without-witness-*
 
-load e 3 1001-gwfollowup-6
-load f 1 1001-gwfollowup-0
-
 load v 1 0001-twilight-flats-evening-0
 load w 3 0002-biases-0
 load x 3 0003-darks-0
 load y 1 0004-focus-with-witness-*
+
+include BLOCKS-targets
 
 #############################
 
