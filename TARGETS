@@ -88,11 +88,15 @@
 
 # priority subpriority repeats programidentifier blockidentifier visitidentifier alpha delta exposurerepeats exposuretime filters name ...
 
+# CURRENT TARGETS
+
+# PREVIOUS TARGETS
+
 # This is the galaxy in which J-G found a variable star.
-10 a  1 1001 20250206212530 6 39.149d     +53.854d    10 60 g/r   2MASS 02363571+5351138
+# 10 a  1 1001 20250206212530 6 39.149d     +53.854d    10 60 g/r   2MASS 02363571+5351138
 
 # This is the candidate host of EP250207b
- 9 a 20 1000 20250207217656 1 11:10:02.71 -07:52:12.7  8 60 g/r/i WISEA J111002.65-075211.9
+# 9 a 20 1000 20250207217656 1 11:10:02.71 -07:52:12.7  8 60 g/r/i WISEA J111002.65-075211.9
 
 # maxairmass 3.0
 # 10 b 10 1001 20250206212530 0 01:37:17.27 +45:43:31.8  8 60 g/r/i AT2025bbo 
