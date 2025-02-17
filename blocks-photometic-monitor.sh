@@ -16,7 +16,7 @@ do
     "name": "photometic monitors"
   },
   "identifier": "1$ra",
-  "name": "photometic monitor near ${ra}h +25d",
+  "name": "photometic monitor near ${ra}h +45d",
   "visits": [
     {
       "identifier": "0",
