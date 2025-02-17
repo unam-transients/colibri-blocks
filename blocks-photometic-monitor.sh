@@ -7,6 +7,89 @@ then
   exit
 fi
 
+for ra in 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+do
+  cat <<EOF >0005-photometic-monitor-1$ra.json
+{
+  "project": {
+    "identifier": "0005",
+    "name": "photometic monitors"
+  },
+  "identifier": "1$ra",
+  "name": "photometic monitor near ${ra}h +25d",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometic monitor in g",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "${ra}h",
+        "delta"  : "+45d",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 1 60 g",
+      "estimatedduration": "80s"
+    },{
+      "identifier": "1",
+      "name": "photometic monitor in r",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "${ra}h",
+        "delta"  : "+45d",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 1 60 g",
+      "estimatedduration": "80s"
+    },{
+      "identifier": "2",
+      "name": "photometic monitor in i",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "${ra}h",
+        "delta"  : "+45d",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 1 60 i",
+      "estimatedduration": "80s"
+    },    {
+      "identifier": "3",
+      "name": "photometic monitor in gri",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "${ra}h",
+        "delta"  : "+45d",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 1 60 gri",
+      "estimatedduration": "80s"
+    },{
+      "identifier": "4",
+      "name": "photometic monitor in B",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "${ra}h",
+        "delta"  : "+45d",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 1 60 B",
+      "estimatedduration": "80s"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "bright",
+    "minairmass": "1.0",
+    "maxairmass": "1.2",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
+EOF
+
+done
+
+exit
+
+
 while read suffix blockid tyc alpha delta TYC ALPHA DELTA
 do
 
