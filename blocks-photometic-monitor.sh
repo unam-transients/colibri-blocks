@@ -20,59 +20,15 @@ do
   "visits": [
     {
       "identifier": "0",
-      "name": "photometic monitor in g",
+      "name": "photometic monitor in g/r/i/gri/B",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "${ra}h",
         "delta"  : "+45d",
         "equinox": "2000"
       },
-      "command": "dithervisit 1 60 g",
-      "estimatedduration": "80s"
-    },{
-      "identifier": "1",
-      "name": "photometic monitor in r",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "${ra}h",
-        "delta"  : "+45d",
-        "equinox": "2000"
-      },
-      "command": "dithervisit 1 60 g",
-      "estimatedduration": "80s"
-    },{
-      "identifier": "2",
-      "name": "photometic monitor in i",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "${ra}h",
-        "delta"  : "+45d",
-        "equinox": "2000"
-      },
-      "command": "dithervisit 1 60 i",
-      "estimatedduration": "80s"
-    },    {
-      "identifier": "3",
-      "name": "photometic monitor in gri",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "${ra}h",
-        "delta"  : "+45d",
-        "equinox": "2000"
-      },
-      "command": "dithervisit 1 60 gri",
-      "estimatedduration": "80s"
-    },{
-      "identifier": "4",
-      "name": "photometic monitor in B",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "${ra}h",
-        "delta"  : "+45d",
-        "equinox": "2000"
-      },
-      "command": "dithervisit 1 60 B",
-      "estimatedduration": "80s"
+      "command": "gridvisit 1 1 1 60 g/r/i/gri/B",
+      "estimatedduration": "400s"
     }
   ],
   "constraints": {
