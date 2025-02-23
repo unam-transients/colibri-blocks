@@ -35,6 +35,7 @@ load b 1 0004-focus-without-witness-*
 
 load m 1 2001-gonzalez-*
 load n 1 2000-ibarra-*
+load o 1 2002-globus-1
 
 load t 1 0005-photometic-monitor-*
 load u 1 0017-trackingtest-*
