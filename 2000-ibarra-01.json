@@ -1,0 +1,52 @@
+{
+  "project": {
+    "identifier": "2000",
+    "name": "RM Test"
+  },
+  "identifier": "1",
+  "name": "centroide_RM1",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in g/r/i",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "214.18000d",
+        "delta"  : "53.23970",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 2 1 60 g/r/i",
+      "estimatedduration": "10m"
+    },
+    {
+      "identifier": "1",
+      "name": "photometry in g/r/i",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "214.18000d",
+        "delta"  : "53.23970",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 2 1 30 g/r/i",
+      "estimatedduration": "5m"
+    },
+    {
+      "identifier": "2",
+      "name": "photometry in g/r/i",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "214.18000d",
+        "delta"  : "53.23970",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 2 1 10 g/r/i",
+      "estimatedduration": "3m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "astronomicaltwilight",
+    "maxairmass": "1.5",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
