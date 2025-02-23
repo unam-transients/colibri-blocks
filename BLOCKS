@@ -37,6 +37,7 @@ load m 1 2001-gonzalez-*
 load n 1 2000-ibarra-*
 
 load t 1 0005-photometic-monitor-*
+load u 1 0017-trackingtest-*
 load v 1 0001-twilight-flats-evening-0
 load w 3 0002-biases-0
 load x 3 0003-darks-0

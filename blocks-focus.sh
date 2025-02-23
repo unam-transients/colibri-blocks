@@ -166,6 +166,74 @@ EOF
 }
 EOF
 
+  cat <<EOF >0017-trackingtest-$suffix.json
+{
+  "project": {
+    "identifier": "0017",
+    "name": "tracking tests"
+  },
+  "identifier": "$blockid",
+  "name": "tracking test near ${suffix}h +25d",
+  "visits": [
+    {
+      "identifier": "1001",
+      "name": "focus",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "focusvisit",
+      "estimatedduration": "1m"
+    },
+    {
+      "identifier": "0",
+      "name": "tracking with 60-second exposures",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 9 1 60 i",
+      "estimatedduration": "12m"
+    },
+    {
+      "identifier": "1",
+      "name": "tracking with 30-second exposures",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 9 2 30 i",
+      "estimatedduration": "12m"
+    },
+    {
+      "identifier": "2",
+      "name": "tracking with 15-second exposures",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 9 4 15 i",
+      "estimatedduration": "12m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "minha": "-1h",
+    "maxha": "+1h",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
+EOF
+
 # These are VT ≈ 12.0 and VT ≈ 7.5 Tycho 2 stars spaced every hour at +25d.
 # They were selected using http://vizier.u-strasbg.fr/.
 
