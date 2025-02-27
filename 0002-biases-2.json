@@ -1,9 +1,10 @@
 {
   "project": {
     "identifier": "0002",
-    "name": "biases 2x2"
+    "name": "biases"
   },
   "identifier": "2",
+  "name": "biases: 2x2",
   "visits": [
     {
       "identifier": "0",
