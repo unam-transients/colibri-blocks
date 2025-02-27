@@ -1,9 +1,10 @@
 {
   "project": {
     "identifier": "0003",
-    "name": "darks 1x1"
+    "name": "darks"
   },
   "identifier": "1",
+  "name": "darks 1x1",
   "visits": [
     {
       "identifier": "5",
