@@ -1,0 +1,66 @@
+{
+  "project": {
+    "identifier": "0003",
+    "name": "darks 1x1"
+  },
+  "identifier": "1",
+  "visits": [
+    {
+      "identifier": "5",
+      "name": "darks: 5 seconds 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 5 3 1",
+      "estimatedduration": "45s"
+    },
+    {
+      "identifier": "10",
+      "name": "darks: 10 seconds 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 10 3 1",
+      "estimatedduration": "60s"
+    },
+    {
+      "identifier": "15",
+      "name": "darks: 15 seconds 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 15 3 1",
+      "estimatedduration": "75s"
+    },
+    {
+      "identifier": "30",
+      "name": "darks: 30 seconds 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 30 3 1",
+      "estimatedduration": "120s"
+    },
+    {
+      "identifier": "45",
+      "name": "darks: 45 seconds 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 45 3 1",
+      "estimatedduration": "165s"
+    },
+    {
+      "identifier": "60",
+      "name": "darks: 60 seconds 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "darksvisit 60 3 1",
+      "estimatedduration": "210s"
+    }  
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight"
+  }
+}
