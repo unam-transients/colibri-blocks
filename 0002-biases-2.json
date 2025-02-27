@@ -1,0 +1,21 @@
+{
+  "project": {
+    "identifier": "0002",
+    "name": "biases 2x2"
+  },
+  "identifier": "2",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "biases: 2x2",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "biasesvisit 10 2",
+      "estimatedduration": "1m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight"
+  }
+}
