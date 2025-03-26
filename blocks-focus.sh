@@ -91,37 +91,6 @@ EOF
 }
 EOF
 
-  cat <<EOF >0010-focus-map-$suffix.json
-{
-  "project": {
-    "identifier": "0010",
-    "name": "focus map"
-  },
-  "identifier": "$blockid",
-  "name": "focus map near ${suffix}h +25d",
-  "visits": [
-    {
-      "identifier": "1001",
-      "name": "focus",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$alpha",
-        "delta"  : "$delta",
-        "equinox": "2000"
-      },
-      "command": "focusvisit",
-      "estimatedduration": "1m"
-    }
-  ],
-  "constraints": {
-    "maxskybrightness": "nauticaltwilight",
-    "minmoondistance": "15d"
-  },
-  "priority": "10",
-  "persistent": "false"
-}
-EOF
-
   cat <<EOF >0004-focus-with-witness-$suffix.json
 {
   "project": {
