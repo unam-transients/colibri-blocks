@@ -133,6 +133,48 @@ EOF
 }
 EOF
 
+  cat <<EOF >0014-focus-tilt-$suffix.json
+{
+  "project": {
+    "identifier": "0014",
+    "name": "focus tilts"
+  },
+  "identifier": "$blockid",
+  "name": "focus tilts near ${suffix}h +25d",
+  "visits": [
+    {
+      "identifier": "1001",
+      "name": "focus tilt",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "focustiltvisit",
+      "estimatedduration": "5m"
+    },
+    {
+      "identifier": "0",
+      "name": "focus witness",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "focuswitnessvisit",
+      "estimatedduration": "1m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
+EOF
+
   cat <<EOF >0007-tokovinintest-$suffix.json
 {
   "project": {
