@@ -36,7 +36,8 @@ load b 1 0004-focus-without-witness-*
 #load l 1 2002-globus-01
 #load m 2 2003-tapia-*
 load n 1 2001-gonzalez-*
-load o 1 2004-ibarra-*
+load o 1 2004-ibarra-*       day 0 2
+load p 1 1000-basa-*
 
 load v 1 0002-biases-1
 load w 3 0003-darks-1
