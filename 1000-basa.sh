@@ -39,7 +39,6 @@ do
   "persistent": "false"
 }
 EOF
-    done
 done <<EOF
 1 COMA1    13:00:34.447    +28:05:32.05
 2 COMA2    13:00:33.807    +27:49:27.26
