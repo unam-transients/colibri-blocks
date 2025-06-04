@@ -9,7 +9,7 @@ while read blockidentifier field alpha0 delta0
 do
     visitidentifier=0
     #echo >1001-basa-$blockidentifier.reg J2000
-    cat <<EOF >1001-basa-$blockidentifier-$visitidentifier.json
+    cat <<EOF >1000-basa-$blockidentifier-$visitidentifier.json
 {
   "project": {
     "identifier": "1001",
