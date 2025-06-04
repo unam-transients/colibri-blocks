@@ -27,8 +27,8 @@ do
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "gridvisit 1 5 1 60 r false 5am",
-      "estimatedduration": "6m"
+      "command": "gridvisit 1 5 1 60 g/r false 5am",
+      "estimatedduration": "12m"
     }
   ],
   "constraints": {
