@@ -1,4 +1,4 @@
-rm -f 1000-basa-*.json 2001-basa-*.reg
+rm -f 1001-basa-*.json 1001-basa-*.reg
 
 if test "$1" = "clean"
 then
@@ -9,7 +9,7 @@ while read blockidentifier field alpha0 delta0
 do
     visitidentifier=0
     #echo >1001-basa-$blockidentifier.reg J2000
-    cat <<EOF >1000-basa-$blockidentifier-$visitidentifier.json
+    cat <<EOF >1001-basa-$blockidentifier-$visitidentifier.json
 {
   "project": {
     "identifier": "1001",
