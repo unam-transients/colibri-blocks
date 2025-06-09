@@ -5,7 +5,7 @@ then
   exit
 fi
 
-while read blockidentifier field alpha0 delta0
+while read blockidentifier field alpha delta
 do
     visitidentifier=0
     #echo >1001-basa-$blockidentifier.reg J2000
