@@ -37,7 +37,7 @@ load b 1 0004-focus-without-witness-*
 #load m 2 2003-tapia-*
 load n 1 2001-gonzalez-*
 load o 1 2004-ibarra-*       day 0 2
-load p 1 1001-basa-*
+load p 1 1001-basa-*         day 1 2
 
 load v 1 0002-biases-1
 load w 3 0003-darks-1
@@ -45,6 +45,8 @@ load x 1 0002-biases-2
 load y 3 0003-darks-2
 load z 1 0004-focus-with-witness-*
 load z 1 0001-twilight-flats-evening-0
+
+load z 3 0013-bias-map-*
 
 include BLOCKS-targets
 
