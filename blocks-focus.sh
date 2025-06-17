@@ -57,7 +57,7 @@ do
 }
 EOF
 
-  cat <<EOF >0004-focus-without-witness-$suffix.json
+  cat <<EOF >0004-focus-$suffix.json
 {
   "project": {
     "identifier": "0004",
@@ -88,48 +88,6 @@ EOF
   },
   "priority": "0",
   "persistent": "true"
-}
-EOF
-
-  cat <<EOF >0004-focus-with-witness-$suffix.json
-{
-  "project": {
-    "identifier": "0004",
-    "name": "focusing"
-  },
-  "identifier": "$blockid",
-  "name": "focusing near ${suffix}h +25d",
-  "visits": [
-    {
-      "identifier": "1001",
-      "name": "focus",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$alpha",
-        "delta"  : "$delta",
-        "equinox": "2000"
-      },
-      "command": "focusvisit",
-      "estimatedduration": "1m"
-    },
-    {
-      "identifier": "0",
-      "name": "focus witness",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$alpha",
-        "delta"  : "$delta",
-        "equinox": "2000"
-      },
-      "command": "focuswitnessvisit",
-      "estimatedduration": "1m"
-    }
-  ],
-  "constraints": {
-    "maxskybrightness": "nauticaltwilight",
-    "minmoondistance": "15d"
-  },
-  "persistent": "false"
 }
 EOF
 
