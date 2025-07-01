@@ -39,6 +39,8 @@ load n 1 2001-gonzalez-*.    day 1 2
 load o 1 2004-ibarra-*       day 0 2
 load p 1 1001-basa-*         day 0 2
 
+#load u 4 0010-focus-map-*
+
 load v 1 0002-biases-1
 load w 3 0003-darks-1
 load x 1 0002-biases-2
