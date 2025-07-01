@@ -1,0 +1,28 @@
+{
+  "project": {
+    "identifier": "2002",
+    "name": "Monitoring Mol 12A - Tapia"
+  },
+  "identifier": "1",
+  "name": "Mol 12A",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in r/i",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "05:40:24.23",
+        "delta"  : "+23:50:54.7",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 10 {60 45} r/i",
+      "estimatedduration": "25m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "astronomicaltwilight",
+    "maxairmass": "2.0",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
