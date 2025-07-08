@@ -38,7 +38,7 @@ load n 2 2002-tapia-*
 
 #load l 1 2002-globus-01
 #load n 1 2001-gonzalez-*.    day 1 2
-#load p 1 1001-basa-*         day 0 2
+load p 1 1001-basa-*         day 0 2
 
 #load u 4 0010-focus-map-*
 
