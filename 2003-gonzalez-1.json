@@ -12,7 +12,7 @@
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "00:10:31.0",
-        "delta"  : "+10:58:29.5 ",
+        "delta"  : "+10:58:29.5",
         "equinox": "2000"
       },
       "command": "gridvisit 1 3 1 {60 60 60 40} g/r/i/B",
