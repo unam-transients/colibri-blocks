@@ -1,4 +1,6 @@
-COLIBRI Program Identifiers
+# COLIBRI Program Identifiers
+
+## Calibration Programs
 
 0001 twilight flats
 0002 biases
@@ -20,5 +22,19 @@ COLIBRI Program Identifiers
 0018 scale tests
 0019 Hartmann tests
 
+# GO Programs
+
 2000 Tests
-2001 First RM Study of AGN SPM - Gonzalez
+
+# 2025B
+
+2001 Ibarra
+2002 Tapia
+2003 González
+
+## 2025A
+
+2001 Gónzalez
+2002 Globus
+2003 Tapia
+2004 Ibarra
