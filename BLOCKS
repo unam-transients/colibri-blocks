@@ -33,12 +33,11 @@ unload * * *
 load a 1 0004-initial-focus-*
 load b 1 0004-focus-*
 
-load m 1 2001-ibarra-*
+load m 1 2001-ibarra-*      day 0 2
 load n 2 2002-tapia-*
+load o 2 2003-gonzalez-*    day 0 2
 
-#load l 1 2002-globus-01
-#load n 1 2001-gonzalez-*.    day 1 2
-load p 1 1001-basa-*         day 0 2
+load p 1 1001-basa-*        day 0 2
 
 #load u 4 0010-focus-map-*
 
