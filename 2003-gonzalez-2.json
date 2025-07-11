@@ -1,0 +1,28 @@
+{
+  "project": {
+    "identifier": "2003",
+    "name": "First RM Study of AGN SPM - Gonzalez"
+  },
+  "identifier": "2",
+  "name": "SDSS J010131.17+422935.5",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in g/r/i/B",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "01:01:31.10",
+        "delta"  : "+42:29:36.0",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 3 1 {60 60 60 40} g/r/i/B",
+      "estimatedduration": "15m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "astronomicaltwilight",
+    "maxairmass": "2.0",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
