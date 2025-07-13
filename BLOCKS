@@ -33,6 +33,8 @@ unload * * *
 load a 1 0004-initial-focus-*
 load b 1 0004-focus-*
 
+load g 1 1001-icecube-*
+
 load m 1 2001-ibarra-*      day 0 2
 load n 2 2002-tapia-*
 load o 2 2003-gonzalez-*    day 0 2
