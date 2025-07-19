@@ -26,7 +26,7 @@ do
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "gridvisit 1 120 1 5 i",
+      "command": "dithervisit 24 {5 5 5 5 5} {i i i i i}",
       "estimatedduration": "12m"
     }
   ],
