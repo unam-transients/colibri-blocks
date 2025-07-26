@@ -26,8 +26,8 @@ do
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "dithervisit 24 {5 5 5 5 5} {i i i i i}",
-      "estimatedduration": "12m"
+      "command": "dithervisit 48 {5 5 5 5 5} {i i i i i}",
+      "estimatedduration": "24m"
     }
   ],
   "constraints": {
