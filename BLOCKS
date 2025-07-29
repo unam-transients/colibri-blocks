@@ -31,7 +31,7 @@
 load a 1 0004-initial-focus-*
 load b 1 0004-focus-*
 
-#load g 1 1001-icecube-*
+load g 1 1001-icecube-*     day 0 3
 #load h 1 1001-frb-*
 
 load m 1 2001-ibarra-*      day 0 2
