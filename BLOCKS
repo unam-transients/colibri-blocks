@@ -38,7 +38,7 @@ load m 1 2001-ibarra-*      day 0 2
 load n 2 2002-tapia-*
 load o 2 2003-gonzalez-*    day 0 2
 
-load p 1 1001-basa-*        day 0 2
+#load p 1 1001-basa-*        day 0 2
 
 load q 1 2001-ibarra-*
 load r 2 2003-gonzalez-*
