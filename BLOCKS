@@ -31,17 +31,21 @@
 load a 1 0004-initial-focus-*
 load b 1 0004-focus-*
 
-load g 1 1001-icecube-*     day 0 3
-#load h 1 1001-frb-*
 
+# Put the science blocks with high priority at their requested cadence
+load g 1 1001-icecube-*     day 0 3
 load m 1 2001-ibarra-*      day 0 2
 load n 2 2002-tapia-*
 load o 2 2003-gonzalez-*    day 0 2
 
 #load p 1 1001-basa-*        day 0 2
 
-load q 1 2001-ibarra-*
-load r 2 2003-gonzalez-*
+# Put the science blocks in every night at low priority
+load q 1 1001-ice-cube.*    day 1 3
+load q 1 1001-ice-cube.*    day 2 3
+load r 1 2001-ibarra-*
+load s 2 2003-gonzalez-*
+#load t 1 1001-basa-*        day 1 2
 
 #load u 4 0010-focus-map-*
 
