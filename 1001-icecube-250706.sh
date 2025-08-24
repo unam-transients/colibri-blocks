@@ -34,8 +34,8 @@ do
     "maxskybrightness": "bright",
     "maxairmass": "1.5",
     "minmoondistance": "15d",
-    "minha": "+1.0h",
-    "maxha": "+3.0h"
+    "minha": "+3.0h",
+    "maxha": "+5.0h"
   },
   "persistent": "false"
 }
