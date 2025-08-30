@@ -46,7 +46,7 @@ do
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "gridvisit 1 1 1 30 i",
+      "command": "gridvisit 1 1 1 30 g/r/i",
       "estimatedduration": "3m"
     }
   ],
