@@ -19,14 +19,14 @@ do
   "visits": [
     {
       "identifier": "$visitidentifier",
-      "name": "photometry in r",
+      "name": "photometry in i/z",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "$alpha",
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "gridvisit 1 4 1 60 i 0am",
+      "command": "gridvisit 1 4 1 60 i/z 0am",
       "estimatedduration": "5m"
     }
   ],
