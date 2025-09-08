@@ -39,7 +39,7 @@ do
   "visits": [
     {
       "identifier": "$visitidentifier",
-      "name": "photometry in g/r/i",
+      "name": "photometry in g/r/i/z/y",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "$alpha",
