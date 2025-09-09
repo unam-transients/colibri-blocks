@@ -32,18 +32,18 @@ load a 1 0004-initial-focus-*
 load b 1 0004-focus-*
 
 # Run photometric blocks
-load c 1 0005-photometic-monitor-* day 0 2
+load c 1 0005-photometic-monitor-*
 
 # Put the science blocks at their requested cadence with high priority
 load d 1 1000-at2025ulz-iz  day 1 2
-load e 1 1001-icecube-*     day 0 3
-load f 1 2001-ibarra-*      day 0 2
-load g 2 2002-tapia-*
-load h 2 2003-gonzalez-*    day 0 2
-load i 1 1001-basa-*        day 0 2
+load e 1 1000-at2025ulz-rz  day 0 2
+load f 1 1001-icecube-*     day 0 3
+load g 1 2001-ibarra-*      day 0 2
+load h 2 2002-tapia-*
+load i 2 2003-gonzalez-*    day 0 2
+load j 1 1001-basa-*        day 0 2
 
 # Put the science blocks in other nights at low priority
-load j 1 1001-at2025ulz-iz  day 0 2
 load k 1 1001-icecube-*     day 1 3
 load k 1 1001-icecube-*     day 2 3
 load l 1 2001-ibarra-*      day 1 2

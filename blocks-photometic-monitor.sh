@@ -9,32 +9,32 @@ fi
 
 for ra in 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23
 do
-  cat <<EOF >0005-photometic-monitor-1$ra.json
+  cat <<EOF >0005-photometic-monitor-0$ra.json
 {
   "project": {
     "identifier": "0005",
     "name": "photometic monitors"
   },
-  "identifier": "1$ra",
-  "name": "photometic monitor near ${ra}h +45d",
+  "identifier": "0$ra",
+  "name": "photometic monitor in g/r/i/gri/B/z/y/zy near ${suffix}h +45d",
   "visits": [
     {
       "identifier": "0",
-      "name": "photometic monitor in g/r/i/gri/B",
+      "name": "objects",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "${ra}h",
         "delta"  : "+45d",
         "equinox": "2000"
       },
-      "command": "gridvisit 1 1 1 60 g/r/i/gri/B",
-      "estimatedduration": "400s"
+      "command": "gridvisit 1 1 1 60 g/r/i/gri/B/z/y/zy",
+      "estimatedduration": "6m"
     }
   ],
   "constraints": {
     "maxskybrightness": "bright",
-    "minairmass": "1.0",
-    "maxairmass": "1.2",
+    "minairmass": "1.2",
+    "maxairmass": "1.3",
     "minmoondistance": "15d"
   },
   "persistent": "false"
@@ -55,7 +55,7 @@ do
     "identifier": "0005",
     "name": "photometic monitors"
   },
-  "identifier": "$blockid",
+  "identifier": "0$blockid",
   "name": "photometic monitor in g/r/i/gri/B/z/y/zy near ${suffix}h +25d",
   "visits": [
     {
