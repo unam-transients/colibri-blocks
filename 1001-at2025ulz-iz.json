@@ -1,0 +1,28 @@
+{
+  "project": {
+    "identifier": "1001",
+    "name": "AT2025ulz"
+  },
+  "identifier": "20250818012006",
+  "name": "AT2025ulz -- photometry in i/z",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in i/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "15:51:53.63",
+        "delta"  : "+30:55:19.2",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 16 60 i/z",
+      "estimatedduration": "20m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "bright",
+    "minmoondistance": "15d",
+    "maxha": "+4.5h"
+  },
+  "persistent": "true"
+}

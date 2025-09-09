@@ -56,65 +56,21 @@ do
     "name": "photometic monitors"
   },
   "identifier": "$blockid",
-  "name": "photometic monitor near ${suffix}h +25d",
+  "name": "photometic monitor in g/r/i/gri/B/z/y/zy near ${suffix}h +25d",
   "visits": [
     {
       "identifier": "0",
-      "name": "photometic monitor in g",
+      "name": "object",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "$alpha",
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "gridvisit 1 5 1 5 g",
-      "estimatedduration": "3m"
-    },{
-      "identifier": "1",
-      "name": "photometic monitor in r",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$alpha",
-        "delta"  : "$delta",
-        "equinox": "2000"
-      },
-      "command": "gridvisit 1 5 1 5 r",
-      "estimatedduration": "3m"
-    },{
-      "identifier": "2",
-      "name": "photometic monitor in i",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$alpha",
-        "delta"  : "$delta",
-        "equinox": "2000"
-      },
-      "command": "gridvisit 1 5 1 5 i",
-      "estimatedduration": "3m"
-    },    {
-      "identifier": "3",
-      "name": "photometic monitor in z",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$alpha",
-        "delta"  : "$delta",
-        "equinox": "2000"
-      },
-      "command": "gridvisit 1 5 1 5 z",
-      "estimatedduration": "3m"
-    },{
-      "identifier": "4",
-      "name": "photometic monitor in y",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$alpha",
-        "delta"  : "$delta",
-        "equinox": "2000"
-      },
-      "command": "gridvisit 1 5 1 5 y",
+      "command": "gridvisit 1 1 1 5 g/r/i/gri/B/z/y/zy",
       "estimatedduration": "2m"
     },{
-      "identifier": "10",
+      "identifier": "1",
       "name": "darks",
       "targetcoordinates": {
         "type"   : "equatorial",
@@ -122,14 +78,14 @@ do
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "darksvisit 5",
+      "command": "darksvisit 5 5",
       "estimatedduration": "2m"
     }
   ],
   "constraints": {
     "maxskybrightness": "nauticaltwilight",
-    "minairmass": "1.6",
-    "maxairmass": "2.0",
+    "minairmass": "1.2",
+    "maxairmass": "1.4",
     "minmoondistance": "15d"
   },
   "persistent": "false"
