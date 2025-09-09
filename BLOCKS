@@ -35,7 +35,7 @@ load b 1 0004-focus-*
 load c 1 0005-photometic-monitor-* day 0 2
 
 # Put the science blocks at their requested cadence with high priority
-load d 1 1001-at2025ulz-iz  day 1 2
+load d 1 1000-at2025ulz-iz  day 1 2
 load e 1 1001-icecube-*     day 0 3
 load f 1 2001-ibarra-*      day 0 2
 load g 2 2002-tapia-*
