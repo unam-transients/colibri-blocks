@@ -20,7 +20,7 @@
     }
   ],
   "constraints": {
-    "maxskybrightness": "bright",
+    "maxskybrightness": "nauticaltwilight",
     "minmoondistance": "15d",
     "maxha": "+4.5h"
   },
