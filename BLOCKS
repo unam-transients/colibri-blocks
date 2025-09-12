@@ -43,6 +43,10 @@ load d5 1 1001-basa-*        day 0 2
 # Run the photometric monitor at medium priority once per week
 load k0 1 0005-photometic-monitor-* day 0 7
 
+# Run the publicity galaxies at medium priority every 4 days
+load k0 1 2000-publicity-0 day 0 4
+load k0 1 2000-publicity-1 day 0 4
+
 # Put the science blocks in other nights at low priority
 load l0 1 1001-icecube-*     day 1 3
 load l0 1 1001-icecube-*     day 2 3

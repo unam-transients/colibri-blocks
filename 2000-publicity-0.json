@@ -1,0 +1,29 @@
+{
+  "project": {
+    "identifier": "2000",
+    "name": "Publicity images - Globus"
+  },
+  "identifier": "0",
+  "name": "NGC 6946",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in g/r/i/z/y",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "20:34:52.3",
+        "delta"  : "+60:09:14",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 30 10 g/r/i/z/y",
+      "estimatedduration": "15m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "dark",
+    "minzenithdistance": "10d",
+    "maxairmass": "1.3",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}

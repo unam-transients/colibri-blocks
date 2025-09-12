@@ -6,7 +6,7 @@
 - 0002 biases
 - 0003 darks
 - 0004 focusing
-- 0005 photometic monitors
+- 0005 photometric monitors
 - 0006 dome flats
 - 0007 Tokovinin tests
 - 0008 pointing map
