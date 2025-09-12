@@ -8,15 +8,27 @@
   "visits": [
     {
       "identifier": "0",
-      "name": "photometry in r/i/z/y",
+      "name": "photometry in r/y",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "05:40:24.23",
         "delta"  : "+23:50:54.7",
         "equinox": "2000"
       },
-      "command": "dithervisit 10 {60 45} r/i/z/y",
-      "estimatedduration": "25m"
+      "command": "dithervisit 10 60 r/y",
+      "estimatedduration": "15m"
+    },
+    {
+      "identifier": "1",
+      "name": "photometry in i/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "05:40:24.23",
+        "delta"  : "+23:50:54.7",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 10 45 i/z",
+      "estimatedduration": "12m"
     }
   ],
   "constraints": {
