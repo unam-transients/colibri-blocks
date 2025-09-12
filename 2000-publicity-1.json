@@ -1,7 +1,7 @@
 {
   "project": {
     "identifier": "2000",
-    "name": "Publicity images - Globus"
+    "name": "Publicity images - Basa"
   },
   "identifier": "1",
   "name": "M 33",
@@ -15,8 +15,20 @@
         "delta"  : "+30:39:37",
         "equinox": "2000"
       },
-      "command": "dithervisit 30 10 g/r/i/z/y",
-      "estimatedduration": "15m"
+      "command": "dithervisit 5 10 g/r/i/z/y",
+      "estimatedduration": "6m"
+    },
+    {
+      "identifier": "1",
+      "name": "photometry in g/r/i/z/y",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "01:33:50.0",
+        "delta"  : "+30:39:37",
+        "equinox": "2000"
+      },
+      "command": "quaddithervisit 5 10 g/r/i/z/y",
+      "estimatedduration": "24m"
     }
   ],
   "constraints": {
