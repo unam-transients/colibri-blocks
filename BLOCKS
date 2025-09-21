@@ -29,7 +29,7 @@
 # If no time specification is given, the action is carried out every day.
 
 load a0 1 0004-initial-focus-*
-load a0 1 0004-focus-*
+load b0 1 0004-focus-*
 
 # Put the science blocks at their requested cadence with high priority
 load d0 1 1000-at2025ulz-iz  day 1 2
