@@ -21,6 +21,7 @@
 - 0017 tracking tests
 - 0018 scale tests
 - 0019 Hartmann tests
+- 0020 photometric transformations
 
 ## GO Programs
 
