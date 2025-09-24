@@ -34,8 +34,8 @@ function zenithdistance(ha, delta) {
   return radtodeg(z);
 }
 BEGIN {
-  dha = 15;
-  ddelta = 15;
+  dha = 30;
+  ddelta = 30;
   blockid = 0;
   iha = 0;
   for (ha = -180 + 0.5 * dha; ha < 180; ha += dha) {
@@ -45,7 +45,7 @@ BEGIN {
     iha += 1;
     for (delta = startdelta; delta < 90; delta += ddelta) {
       z = zenithdistance(ha, delta)
-      if (5 <= z && z <= 60)
+      if (10 <= z && z <= 60)
         printf("%04d %+.1fd %+.1fd %.1fd\n", blockid++, ha, delta, z);
     }
   }
@@ -71,7 +71,7 @@ do
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "pointingmapvisit",
+      "command": "addtopointingmodelvisit",
       "estimatedduration": "1m"
     }
   ],
