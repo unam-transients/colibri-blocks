@@ -8,8 +8,10 @@
 #
 # 1. Action. Either "load" or "unload".
 #
-# 2. Priority. A letter, with a being highest priority and z being lowest
-# priority.
+# 2. Priority. A letter possibly followed by a number. The letter indicates the 
+# primary prority, with a being highest priority and z being lowest
+# priority. The number indicates the secondary priority, with 0 being higher priority 
+# and 9 belong lowest priority.
 #
 # 3. Duplicates. The number of copies of the block file that are loaded into the
 # queue. This is useful when breaking long observations into shorter blocks;
@@ -39,6 +41,9 @@ load d2 1 2001-ibarra-*      day 0 2
 load d3 2 2002-tapia-*
 load d4 2 2003-gonzalez-*    day 0 2
 load d5 1 1001-basa-*        day 0 2
+
+# Test science blocks.
+load e0 1 2000-trapezium-2
 
 # Run the photometric monitor at medium priority once per week
 load k0 1 0005-photometric-monitor-* day 0 7
