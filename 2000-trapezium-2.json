@@ -1,0 +1,40 @@
+{
+  "project": {
+    "identifier": "2000",
+    "name": "Trapezium"
+  },
+  "identifier": "2",
+  "name": "Trapezium",
+  "visits": [
+    {
+      "identifier": "1001",
+      "name": "focus",
+      "targetcoordinates": {
+        "type": "equatorial",
+        "alpha": "05:35:16.46",
+        "delta": "-05:23:22.8",
+        "equinox": "2000"
+      },
+      "command": "focusvisit",
+      "estimatedduration": "5m"
+    },
+    {
+      "identifier": "0",
+      "name": "photometry",
+      "targetcoordinates": {
+        "type": "equatorial",
+        "alpha": "05:35:16.46",
+        "delta": "-05:23:22.8",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 1 1 5 g/r/i/z/y",
+      "estimatedduration": "2m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "maxairmass": "1.4",
+    "minmoondistance": "5d"
+  },
+  "persistent": "false"
+}
