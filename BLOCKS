@@ -41,6 +41,7 @@ load d2 1 2001-ibarra-*      day 0 2
 load d3 2 2002-tapia-*
 load d4 2 2003-gonzalez-*    day 0 2
 load d5 1 1001-basa-*        day 0 2
+load d6 2 1001-frb-251004a-*
 
 # Test science blocks.
 load e0 1 2000-trapezium-2
