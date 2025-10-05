@@ -1,0 +1,30 @@
+{
+  "project": {
+    "identifier": "1001",
+    "name": "FRB 251004A"
+  },
+  "identifier": "20251004022235",
+  "name": "FRB 251004A",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in i/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "19:15:46.66",
+        "delta"  : "+53:40:25.0",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 24 {5 5 5 5 5} {i/z i/z i/z i/z i/z}",
+      "estimatedduration": "12m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "astronomicaltwilight",
+    "maxairmass": "2.0",
+    "minmoondistance": "25d",
+    "minha": "0h",
+    "maxha": "+3.5h"
+  },
+  "persistent": "false"
+}
