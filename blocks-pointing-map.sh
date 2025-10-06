@@ -34,18 +34,18 @@ function zenithdistance(ha, delta) {
   return radtodeg(z);
 }
 BEGIN {
-  dha = 30;
-  ddelta = 30;
+  dha = 15;
+  ddelta = 10;
   blockid = 0;
   iha = 0;
   for (ha = -180 + 0.5 * dha; ha < 180; ha += dha) {
-    startdelta = -20;
+    startdelta = -40;
     if (iha % 2 == 1) 
       startdelta += 0.5 * ddelta;
     iha += 1;
     for (delta = startdelta; delta < 90; delta += ddelta) {
       z = zenithdistance(ha, delta)
-      if (10 <= z && z <= 60)
+      if (3 <= z && z <= 70)
         printf("%04d %+.1fd %+.1fd %.1fd\n", blockid++, ha, delta, z);
     }
   }
