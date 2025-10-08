@@ -34,7 +34,6 @@ load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
 # Put the science blocks at their requested cadence with high priority
-#load c0 2 1001-frb-251004a
 
 load d0 1 1000-at2025ulz-iz  day 1 2
 load d0 1 1000-at2025ulz-rz  day 0 2
