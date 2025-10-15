@@ -3,7 +3,7 @@
     "identifier": "2000",
     "name": "Trapezium"
   },
-  "identifier": "2",
+  "identifier": "3",
   "name": "Trapezium",
   "visits": [
     {
@@ -15,7 +15,7 @@
         "delta": "-05:23:22.8",
         "equinox": "2000"
       },
-      "command": "focusvisit",
+      "command": "focusvisit 1 {\"r\" \"i\" \"y\"} C2",
       "estimatedduration": "5m"
     },
     {
@@ -27,7 +27,7 @@
         "delta": "-05:23:22.8",
         "equinox": "2000"
       },
-      "command": "gridvisit 1 1 1 1 g/r/i/z/y",
+      "command": "gridvisit 1 1 1 0.5 g/r/i/z/y",
       "estimatedduration": "2m"
     }
   ],
