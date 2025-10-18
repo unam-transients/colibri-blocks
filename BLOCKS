@@ -48,7 +48,7 @@ load d4 2 2003-gonzalez-*    day 1 2
 load d5 1 1001-basa-*        day 1 2
 
 # Test science blocks.
-load e0 1 2000-trapezium-2
+#load e0 1 2000-trapezium-2
 load e0 1 2005-globus-*
 
 # Run the photometric monitor at medium priority once per week
