@@ -21,9 +21,9 @@
   ],
   "constraints": {
     "maxskybrightness": "astronomicaltwilight",
-    "minha": "-4h",
-    "maxha": "-1h",
+    "maxairmass": "1.7",
+    "minzenithdistance": "10d",
     "minmoondistance": "15d"
   },
-  "persistent": "true"
+  "persistent": "false"
 }
