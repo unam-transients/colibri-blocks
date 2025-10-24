@@ -33,7 +33,7 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-load   c0 1 1001-icecube-*    day 0 3
+load   c0 1 1001-icecube-*    day 1 3
 load   c1 6 2004-canameras-*  day 0 2
 unload c1 6 2004-canameras-*  day 1 2
 
