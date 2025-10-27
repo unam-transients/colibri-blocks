@@ -34,8 +34,8 @@ load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
 load   c0 1 1001-icecube-*    day 1 3
-load   c1 6 2004-canameras-*  day 1 2
-unload c1 6 2004-canameras-*  day 0 2
+load   c1 6 2004-canameras-*  day 0 2
+unload c1 6 2004-canameras-*  day 1 2
 
 # Put the science blocks at their requested cadence with high priority
 
