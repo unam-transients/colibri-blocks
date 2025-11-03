@@ -11,8 +11,8 @@
       "name": "photometry in r/z",
       "targetcoordinates": {
         "type"   : "equatorial",
-        "alpha"  : "14:30:33.26",
-        "delta"  : "+46:04:58.08",
+        "alpha"  : "09:47:21.00",
+        "delta"  : "+16:07:46.56",
         "equinox": "2000"
       },
       "command": "dithervisit 96 60 r/z",
