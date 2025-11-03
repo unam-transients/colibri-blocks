@@ -1,0 +1,29 @@
+{
+  "project": {
+    "identifier": "1000",
+    "name": "GRB251103A"
+  },
+  "identifier": "20251103044626",
+  "name": "GRB251103A -- photometry in r/z",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in r/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "14:30:33.26",
+        "delta"  : "+46:04:58.08",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 96 60 r/z",
+      "estimatedduration": "120m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "minmoondistance": "15d",
+    "minha": "-12.0h"
+    "maxha": "+12.0h"
+  },
+  "persistent": "true"
+}
