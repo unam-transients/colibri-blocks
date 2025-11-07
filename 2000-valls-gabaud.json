@@ -1,0 +1,28 @@
+{
+  "project": {
+    "identifier": "2000",
+    "name": "HD 23642"
+  },
+  "identifier": "4",
+  "name": "HD 23642",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry",
+      "targetcoordinates": {
+        "type": "equatorial",
+        "alpha": "03:44:30.59",
+        "delta": "+24:08:07.2",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 5 4 5 1 g/z",
+      "estimatedduration": "2m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "maxairmass": "1.7",
+    "minmoondistance": "5d"
+  },
+  "persistent": "false"
+}
