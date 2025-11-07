@@ -33,7 +33,9 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-load   c0 1 1001-icecube-*    day 1 3
+# Test science blocks.
+load c0 1 2000-valls-gabaud*
+
 unload c1 6 2004-canameras-*  day 1 2
 
 # Put the science blocks at their requested cadence with high priority
@@ -45,11 +47,6 @@ load d2 1 2001-ibarra-*      day 1 2
 load d3 2 2002-tapia-*
 load d4 2 2003-gonzalez-*    day 1 2
 load d5 1 1001-basa-*        day 1 2
-
-# Test science blocks.
-#load e0 1 2000-trapezium-2
-#load e0 1 2005-globus-*
-load e0 1 2000-valls-gabaud*
 
 # Run the photometric monitor at medium priority once per week
 load k0 1 0005-photometric-monitor-* day 0 7
