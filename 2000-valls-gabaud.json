@@ -15,8 +15,8 @@
         "delta": "+24:08:07.2",
         "equinox": "2000"
       },
-      "command": "gridvisit 5 4 5 1 g/z",
-      "estimatedduration": "2m"
+      "command": "gridvisit 1 4 5 0.1 g/z",
+      "estimatedduration": "3m"
     }
   ],
   "constraints": {
