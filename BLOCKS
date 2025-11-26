@@ -34,7 +34,6 @@ load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
 # Test science blocks.
-load c0 1 2000-valls-gabaud*
 
 unload c1 6 2004-canameras-*  day 1 2
 
