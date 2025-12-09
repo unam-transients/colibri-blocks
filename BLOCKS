@@ -33,33 +33,27 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-# Test science blocks.
-
-unload c1 6 2004-canameras-*  day 1 2
+# Run the SN every second night.
+load c1 6 2004-canameras-*  day 1 2
 
 # Put the science blocks at their requested cadence with high priority
-
-load d0 1 1000-at2025ulz-iz  day 1 2
-load d0 1 1000-at2025ulz-rz  day 0 2
-
-load d2 1 2001-ibarra-*      day 1 2
+load d2 1 2001-ibarra-*      day 1 7
 load d3 2 2002-tapia-*
-load d4 2 2003-gonzalez-*    day 1 2
+load d4 2 2003-gonzalez-*    day 1 7
+
+# Run the TDE every second night.
 load d5 1 1001-basa-*        day 1 2
 
 # Run the photometric monitor at medium priority once per week
 load k0 1 0005-photometric-monitor-* day 0 7
 
-# Run the publicity galaxies at medium priority every 4 days
-load k0 1 2000-publicity-0 day 0 4
-load k0 1 2000-publicity-1 day 0 4
-
 # Put the science blocks in other nights at low priority
-load l0 1 1001-icecube-*     day 1 3
-load l0 1 1001-icecube-*     day 2 3
-load l1 1 2001-ibarra-*      day 1 2
-load l2 2 2003-gonzalez-*    day 1 2
-load l3 1 1001-basa-*        day 1 2
+load l1 1 2001-ibarra-*      day 1 7
+load l2 2 2003-gonzalez-*    day 1 7
+load l3 1 2001-ibarra-*      day 1 7
+load l4 2 2003-gonzalez-*    day 1 7
+load l5 1 2001-ibarra-*      day 1 7
+load l6 2 2003-gonzalez-*    day 1 7
 
 #load u 4 0010-focus-map-*
 
