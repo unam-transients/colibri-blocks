@@ -42,7 +42,7 @@ load d3 2 2002-tapia-*
 load d4 2 2003-gonzalez-*    day 1 7
 
 # Run the TDE every second night.
-load d5 1 1001-basa-*        day 1 2
+load d5 1 2006-basa-*        day 1 2
 
 # Run the photometric monitor at medium priority once per week
 load k0 1 0005-photometric-monitor-* day 0 7
