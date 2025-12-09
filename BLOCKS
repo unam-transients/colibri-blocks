@@ -37,23 +37,23 @@ load b0 1 0004-focus-*
 load c1 6 2004-canameras-*  day 1 2
 
 # Put the science blocks at their requested cadence with high priority
-load d2 1 2001-ibarra-*      day 1 7
+load d2 1 2001-ibarra-*      day 0 7
 load d3 2 2002-tapia-*
-load d4 2 2003-gonzalez-*    day 1 7
+load d4 2 2003-gonzalez-*    day 0 7
 
 # Run the TDE every second night.
-load d5 1 2006-basa-*        day 1 2
+load d5 1 2006-basa-*        day 0 2
 
 # Run the photometric monitor at medium priority once per week
 load k0 1 0005-photometric-monitor-* day 0 7
 
 # Put the science blocks in other nights at low priority
-load l1 1 2001-ibarra-*      day 1 7
-load l2 2 2003-gonzalez-*    day 1 7
-load l3 1 2001-ibarra-*      day 1 7
-load l4 2 2003-gonzalez-*    day 1 7
-load l5 1 2001-ibarra-*      day 1 7
-load l6 2 2003-gonzalez-*    day 1 7
+load l1 1 2001-ibarra-*      day 0 7
+load l2 2 2003-gonzalez-*    day 0 7
+load l3 1 2001-ibarra-*      day 0 7
+load l4 2 2003-gonzalez-*    day 0 7
+load l5 1 2001-ibarra-*      day 0 7
+load l6 2 2003-gonzalez-*    day 0 7
 
 #load u 4 0010-focus-map-*
 
