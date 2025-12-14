@@ -1,0 +1,28 @@
+{
+  "project": {
+    "identifier": "1000",
+    "name": "IceCube 251012A"
+  },
+  "identifier": "20251210110614",
+  "name": "IceCube 251012A in r/z",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in i/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "02:21:09.60",
+        "delta"  : "+20:20:24.0",
+        "equinox": "2000"
+      },
+      "command": "quaddithervisit 16 60 r/z",
+      "estimatedduration": "20m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "bright",
+    "maxairmass": "1.5",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
