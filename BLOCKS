@@ -51,12 +51,21 @@ load d5 1 2006-basa-*        day 0 2
 load k0 1 0005-photometric-monitor-* day 0 7
 
 # Put the science blocks in other nights at low priority
+
 load l1 1 2001-ibarra-*      day 0 7
 load l2 2 2003-gonzalez-*    day 0 7
 load l3 1 2001-ibarra-*      day 0 7
 load l4 2 2003-gonzalez-*    day 0 7
 load l5 1 2001-ibarra-*      day 0 7
 load l6 2 2003-gonzalez-*    day 0 7
+
+load m0 6 2004-canameras-*
+load m1 1 2001-ibarra-* 
+load m2 2 2003-gonzalez-*
+load m3 1 2001-ibarra-*
+load m4 2 2003-gonzalez-*
+load m5 1 2001-ibarra-*
+load m6 2 2003-gonzalez-*
 
 #load u 4 0010-focus-map-*
 
