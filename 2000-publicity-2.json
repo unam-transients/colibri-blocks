@@ -1,0 +1,29 @@
+{
+  "project": {
+    "identifier": "2000",
+    "name": "Publicity images - Watson"
+  },
+  "identifier": "1",
+  "name": "Coment 3I/ATLAS",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in g/r/i/z/y",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "10:40:30.4",
+        "delta"  : "+07:34:07.5",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 5 1 60 g/r/i/z/y 5am",
+      "estimatedduration": "20m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "bright",
+    "minzenithdistance": "10d",
+    "maxairmass": "1.7",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
