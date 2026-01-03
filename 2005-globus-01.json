@@ -8,7 +8,7 @@
   "visits": [
     {
       "identifier": "0",
-      "name": "photometry in g/r/i",
+      "name": "photometry in g/r/i/z/y",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "08:05:12.8880",
