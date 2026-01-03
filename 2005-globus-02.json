@@ -1,0 +1,28 @@
+{
+  "project": {
+    "identifier": "2005",
+    "name": "Monitoring BBH variability - Globus"
+  },
+  "identifier": "2",
+  "name": "PKS 2131-021",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in g/r/i/z/y",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "21:34:10.3096",
+        "delta"  : "-01:53:17.238",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 3 1 60 g/r/i/z/y",
+      "estimatedduration": "12m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "dark",
+    "maxairmass": "1.5",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}

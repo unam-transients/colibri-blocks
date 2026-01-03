@@ -1,0 +1,29 @@
+{
+  "project": {
+    "identifier": "2004",
+    "name": "Lenses SNe - Canameras"
+  },
+  "identifier": "0",
+  "name": "SN 2025wny",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in r/i/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "07:16:34.500",
+        "delta"  : "+38:21:08.11",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 8 60 r/i/z",
+      "estimatedduration": "20m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "astronomicaltwilight",
+    "maxairmass": "1.7",
+    "minzenithdistance": "10d",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
