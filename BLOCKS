@@ -40,10 +40,11 @@ load c0 2 1000-icecube-251210A 0 3
 load c1 6 2004-canameras-*  day 1 2
 
 # Put the science blocks at their requested cadence with high priority
-load d2 1 2001-ibarra-*      day 0 3
+load e0 1 2001-ibarra-*      day 0 3
+load e1 1 2005-globus-*      day 0 2
+
 #load d3 2 2002-tapia-*
 #load d4 2 2003-gonzalez-*    day 0 7
-#load d5 1 2005-globus-*
 load d6 1 2006-basa-*        day 0 2
 
 # Run the photometric monitor at medium priority once per week
@@ -51,7 +52,8 @@ load k0 1 0005-photometric-monitor-* day 0 7
 
 # Put the science blocks once a week at low priority as fillers
 
-load l1 1 2001-ibarra-*      day 0 7
+load l0 1 2001-ibarra-*      day 0 7
+load l1 1 2005-globus-*      day 1 2
 load l2 2 2003-gonzalez-*    day 0 7
 load m0 6 2004-canameras-*
 
