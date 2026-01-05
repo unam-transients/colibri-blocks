@@ -20,7 +20,7 @@
     }
   ],
   "constraints": {
-    "maxskybrightness": "dark",
+    "maxskybrightness": "bright",
     "maxairmass": "1.5",
     "minmoondistance": "15d"
   },
