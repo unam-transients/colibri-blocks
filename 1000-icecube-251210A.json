@@ -4,11 +4,11 @@
     "name": "IceCube 251210A"
   },
   "identifier": "20251210110614",
-  "name": "IceCube 251012A in r/z",
+  "name": "IceCube 251210A in r/z",
   "visits": [
     {
       "identifier": "0",
-      "name": "photometry in i/z",
+      "name": "photometry in r/z",
       "targetcoordinates": {
         "type"   : "equatorial",
         "alpha"  : "02:21:09.60",
