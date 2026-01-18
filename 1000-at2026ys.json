@@ -1,0 +1,29 @@
+{
+  "project": {
+    "identifier": "1000",
+    "name": "transients"
+  },
+  "identifier": "20260113165158",
+  "name": "AT 2025ys",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in g/r/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "09:35:07.29",
+        "delta"  : "+14:22:14.7",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 8 60 g/r/z",
+      "estimatedduration": "20m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "astronomicaltwilight",
+    "maxzenithdistance": "50d",
+    "minzenithdistance": "10d",
+    "minmoondistance": "15d"
+  },
+  "persistent": "false"
+}
