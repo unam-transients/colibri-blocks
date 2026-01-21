@@ -37,10 +37,10 @@ load b0 1 0004-focus-*
 load c0 2 1000-icecube-251210A day 0 3
 
 # Run the SN every second night.
-load c1 6 2004-canameras-*  day 1 2
+load c1 6 2004-canameras-*  day 0 2
 
-# Observe AT 2026ys every night
-load c2 2 1000-at2026ys
+# Observe AT 2026ys every second night
+load c2 2 1000-at2026ys 1 2
 
 # Put the science blocks at their requested cadence with high priority
 load e0 1 2001-ibarra-*      day 0 3
