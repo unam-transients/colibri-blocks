@@ -22,6 +22,8 @@
 - 0018 scale tests
 - 0019 Hartmann tests
 - 0020 photometric transformations
+- 0021 unpolarized standards
+- 0022 polarized standards
 
 ## GO Programs
 
