@@ -2,6 +2,9 @@
 
 rm -f 0004-initial-focus-*.json
 rm -f 0004-focus-*.json
+rm -f 0007-tokovinintest-*.json
+rm -f 0014-focus-tilt-*.json
+rm -f 0017-trackingtest-*.json
 
 if test "$1" = "clean"
 then
