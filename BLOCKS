@@ -36,6 +36,11 @@ load b0 1 0004-focus-*
 # Observe IceCube 251210A every third night
 load c0 2 1000-icecube-251210A day 0 3
 
+load c0 3 1000-ep250131a-a
+load c0 3 1000-ep250131a-b
+load c0 3 1000-ep250131a-c
+load c0 3 1000-ep250131a-d
+
 # Run the SN every second night.
 load c1 6 2004-canameras-*  day 1 2
 

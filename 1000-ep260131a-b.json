@@ -1,0 +1,31 @@
+{
+  "project": {
+    "identifier": "1000",
+    "name": "transients"
+  },
+  "identifier": "20260131033125",
+  "name": "EP260131a",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in r/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "09:59:36.58",
+        "delta"  : "-03:18:26.7",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 16 60 r/z",
+      "estimatedduration": "20m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "astronomicaltwilight",
+    "maxzenithdistance": "60d",
+    "minzenithdistance": "10d",
+    "minmoondistance": "15d",
+    "minha": "-2h",
+    "maxha": "+0h"
+  },
+  "persistent": "false"
+}
