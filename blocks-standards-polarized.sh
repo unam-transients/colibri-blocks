@@ -66,8 +66,7 @@ do
     "maxskybrightness": "nauticaltwilight",
     "maxzenithdistance": "50d",
     "minzenithdistance": "10d",
-    "minmoondistance": "15d",
-    "minfocusdelay": "14400"
+    "minmoondistance": "15d"
   },
   "priority": "9",
   "persistent": "false"
