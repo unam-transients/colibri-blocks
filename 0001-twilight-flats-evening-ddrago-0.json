@@ -1,0 +1,26 @@
+{
+  "project": {
+    "identifier": "0001",
+    "name": "twilight flats"
+  },
+  "identifier": "0",
+  "name": "twilight flats",
+  "visits": [
+    {
+      "identifier": "1",
+      "name": "twilight flats",
+      "targetcoordinates": {
+        "type": "fixed",
+        "azimuth": "90d",
+        "zenithdistance": "60d"
+      },
+      "command": "ddragotwilightflatsvisit",
+      "estimatedduration": "2m"
+    }
+  ],
+  "constraints": {
+    "minmoondistance": "15d",
+    "maxskybrightness": "civiltwilight",
+    "minskybrightness": "civiltwilight"
+  }
+}

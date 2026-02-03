@@ -14,7 +14,7 @@
         "azimuth": "90d",
         "zenithdistance": "60d"
       },
-      "command": "twilightflatsvisit",
+      "command": "tequilatwilightflatsvisit",
       "estimatedduration": "2m"
     }
   ],
