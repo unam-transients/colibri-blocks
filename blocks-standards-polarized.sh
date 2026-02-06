@@ -68,7 +68,7 @@ do
     "minzenithdistance": "10d",
     "minmoondistance": "15d"
   },
-  "priority": "9",
+  "priority": "10",
   "persistent": "false"
 }
 EOF2
