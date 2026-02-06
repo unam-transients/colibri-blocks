@@ -16,7 +16,7 @@ do
     "name": "photometric monitors"
   },
   "identifier": "0$ra",
-  "name": "photometric monitor in g/r/i/gri/B/z/y/zy near ${suffix}h +45d",
+  "name": "photometric monitor in g/r/i/gri/B/z/y/zy near ${ra}h +45d",
   "visits": [
     {
       "identifier": "0",
