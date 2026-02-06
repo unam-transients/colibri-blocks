@@ -12,7 +12,7 @@
       "targetcoordinates": {
         "type": "fixed",
         "azimuth": "90d",
-        "zenithdistance": "60d"
+        "zenithdistance": "70d"
       },
       "command": "tequilatwilightflatsvisit",
       "estimatedduration": "2m"
