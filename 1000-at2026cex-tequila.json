@@ -24,13 +24,15 @@
         "minha": "+1.0h"
     },
     "alert": {
+        "identifier": "20260130093000",
         "name": "AT2026cex",
         "alpha": "07:30:08.50",
         "delta": "+24:30:05.0",
         "equinox": "2000",
         "uncertainty": "2.0as",
         "eventtimestamp": "2026-01-30T09:30:00.000",
-        "alerttimestamp": "2026-02-05T21:59:31.848"
+        "alerttimestamp": "2026-02-05T21:59:31.848",
+        "enabled": "true"
     },
     "persistent": "false"
 }

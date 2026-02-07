@@ -24,13 +24,15 @@
         "maxha": "+5h"
     },
     "alert": {
+        "identifier": "20260131063930",
         "name": "GRB 260131A/B",
         "alpha": "01:38:51.32",
         "delta": "+34:19:41.2",
         "equinox": "2000",
         "uncertainty": "2.0as",
         "eventtimestamp": "2026-01-30T09:30:00.000",
-        "alerttimestamp": "2026-02-05T21:59:31.848"
+        "alerttimestamp": "2026-02-05T21:59:31.848",
+        "enabled": "true"
     },
     "persistent": "true"
 }
