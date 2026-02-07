@@ -46,7 +46,7 @@ load d1 3 1000-at2026cex-tequila
 
 # Polarimetric standards
 load e0 1 0021-*
-load d0 1 0022-*
+load e0 1 0022-*
 
 # Put the science blocks at their requested cadence with high priority
 load e0 1 2001-ibarra-*      day 0 3
