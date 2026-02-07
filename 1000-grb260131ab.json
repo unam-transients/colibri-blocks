@@ -1,0 +1,36 @@
+{
+    "project": {
+        "identifier": "1000",
+        "name": "Alerts"
+    },
+    "identifier": "20260131063930",
+    "name": "GRB 260131A/B",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "photometry in g/r/z",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "01:38:51.32",
+                "delta": "+34:19:41.2",
+                "equinox": "2000"
+            },
+            "command": "dithervisit 2 60 g/r/z",
+            "estimatedduration": "5m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "astronomicaltwilight",
+        "maxha": "+5h"
+    },
+    "alert": {
+        "name": "GRB 260131A/B",
+        "alpha": "01:38:51.32",
+        "delta": "+34:19:41.2",
+        "equinox": "2000",
+        "uncertainty": "2.0as",
+        "eventtimestamp": "2026-01-30T09:30:00.000",
+        "alerttimestamp": "2026-02-05T21:59:31.848"
+    },
+    "persistent": "true"
+}
