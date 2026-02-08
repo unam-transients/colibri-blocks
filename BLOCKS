@@ -44,16 +44,13 @@ load d1 2 1000-at2026cex-tequila
 # Run the SN every second night.
 load c1 24 2004-canameras-*  day 1 2
 
-# Polarimetric standards
-load e0 1 0021-*
-load e0 1 0022-*
-
 # Put the science blocks at their requested cadence with high priority
 load e0 1 2001-ibarra-*      day 0 3
 load e1 1 2005-globus-*      day 0 2
 load e2 1 2003-gonzalez-*    day 0 2
 load e2 1 2003-gonzalez-1    day 1 2
 load e3 1 2007-pereyra-*     day 0 2
+
 
 #load e6 1 2006-basa-*        day 0 2
 
@@ -68,6 +65,10 @@ load l2 1 2005-globus-*      day 1 2
 load l3 1 2001-ibarra-*      day 1 3
 
 #load m0 6 2004-canameras-*
+
+# Polarimetric standards
+load y0 1 0021-*
+load y0 1 0022-*
 
 load z0 1 0002-biases-1
 load z1 3 0003-darks-1
