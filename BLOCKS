@@ -42,7 +42,7 @@ load d1 2 1000-at2026cex-tequila
 #load c0 2 1000-icecube-251210A day 0 3
 
 # Run the SN every second night.
-load c1 24 2004-canameras-*  day 0 2
+load c1 24 2004-canameras-*  day 1 2
 
 # Polarimetric standards
 load e0 1 0021-*
