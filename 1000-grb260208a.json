@@ -1,0 +1,39 @@
+{
+    "project": {
+        "identifier": "1000",
+        "name": "Alerts"
+    },
+    "identifier": "20260208050728",
+    "name": "GRB 260208A",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "photometry in r/z",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "13:38:55.59",
+                "delta": "+33:48:06.2",
+                "equinox": "2000"
+            },
+            "command": "dithervisit 2 60 r/z",
+            "estimatedduration": "5m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "astronomicaltwilight",
+        "minha": "-4h",
+        "minzenithdistance": "10d"
+    },
+    "alert": {
+        "identifier": "20260208050728",
+        "name": "GRB 260208A",
+        "alpha": "13:38:55.59",
+        "delta": "+33:48:06.2",
+        "equinox": "2000",
+        "uncertainty": "2.0as",
+        "eventtimestamp": "2026-02-08T05:07:28.240",
+        "alerttimestamp": "2026-02-08T05:07:57.023",
+        "enabled": "true"
+    },
+    "persistent": "true"
+}
