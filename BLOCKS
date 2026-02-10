@@ -35,12 +35,10 @@ load b0 1 0004-focus-*
 
 load c0 1 1000-at2026cex-ddrago
 
-load d0 2 1000-at2026cex-tequila
 load d1 1 1000-grb260208a
-load d1 1 1000-grb260208b
 
 # Observe IceCube 251210A every third night
-#load c0 2 1000-icecube-251210A day 0 3
+load c0 2 1000-icecube-251210A day 0 3
 
 # Run the SN every second night.
 load c1 24 2004-canameras-*  day 1 2
