@@ -33,15 +33,17 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-load c0 1 1000-at2026cex-ddrago
-
-load d1 1 1000-grb260208a
+load c1 1 1000-at2026cex-ddrago
 
 # Observe IceCube 251210A every third night
-load c0 2 1000-icecube-251210A day 0 3
+load d0 2 1000-icecube-251210A day 0 3
 
 # Run the SN every second night.
-load c1 24 2004-canameras-*  day 1 2
+load d1 24 2004-canameras-*  day 1 2
+
+# GRBs
+load d1 1 1000-grb260208a
+load d2 1 1000-grb251129a
 
 # Put the science blocks at their requested cadence with high priority
 load e0 1 2001-ibarra-*      day 0 3

@@ -1,0 +1,39 @@
+{
+    "project": {
+        "identifier": "1000",
+        "name": "Alerts"
+    },
+    "identifier": "20251129023124",
+    "name": "GRB 251129A",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "photometry in r/z",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "14:57:18.88",
+                "delta": "+79:17:34.8",
+                "equinox": "2000"
+            },
+            "command": "dithervisit 2 60 r/z",
+            "estimatedduration": "5m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "astronomicaltwilight",
+        "minha": "-3h",
+        "maxha": "+3h"
+    },
+    "alert": {
+        "identifier": "20251129023124",
+        "name": "GRB 251129A",
+        "alpha": "14:57:18.88",
+        "delta": "+79:17:34.8",
+        "equinox": "2000",
+        "uncertainty": "2.0as",
+        "eventtimestamp": "2025-11-29T02:31:24.697",
+        "alerttimestamp": "2025-11-29T02:47:47.848",
+        "enabled": "true"
+    },
+    "persistent": "true"
+}
