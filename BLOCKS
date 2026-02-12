@@ -33,7 +33,9 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-load c1 1 1000-at2026cex-ddrago
+load c0 1 1000-at2026cex-ddrago
+
+load d1 1 1000-grb260211a
 
 # Observe IceCube 251210A every third night
 load d0 2 1000-icecube-251210A day 0 3
