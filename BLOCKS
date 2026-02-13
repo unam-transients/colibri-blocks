@@ -40,8 +40,8 @@ load d0 1 1000-grb260211a
 # Observe IceCube 251210A every third night
 #load d0 2 1000-icecube-251210A day 0 3
 
-# Run the SN every second night.
-load d1 24 2004-canameras-*  day 1 2
+# Run the SN every third night.
+load d1 24 2004-canameras-*  day 0 3
 
 # Put the science blocks at their requested cadence with high priority
 load e0 1 2001-ibarra-*      day 0 3
