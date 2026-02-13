@@ -1,0 +1,39 @@
+{
+    "project": {
+        "identifier": "1000",
+        "name": "Alerts"
+    },
+    "identifier": "20260213195840",
+    "name": "EP260213a",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "photometry in r/z",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "11:08:01.92",
+                "delta": "+03:57:54.0",
+                "equinox": "2000"
+            },
+            "command": "dithervisit 4 60 r/z",
+            "estimatedduration": "5m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "astronomicaltwilight",
+        "minha": "-12h",
+        "maxha": "+3.0h"
+    },
+    "alert": {
+        "identifier": "20260213195840",
+        "name": "EP260213a",
+        "alpha": "11:08:01.92",
+        "delta": "+03:57:54.0",
+        "equinox": "2000",
+        "uncertainty": "3.1am",
+        "eventtimestamp": "2026-02-13T19:58:40.198",
+        "alerttimestamp": "2026-02-13T20:04:53.368",
+        "enabled": "true"
+    },
+    "persistent": "true"
+}
