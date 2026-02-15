@@ -8,14 +8,14 @@
     "visits": [
         {
             "identifier": "0",
-            "name": "photometry in g/r/i/z",
+            "name": "photometry in r/z",
             "targetcoordinates": {
                 "type": "equatorial",
                 "alpha": "12:45:01.96",
                 "delta": "+23:51:13.1",
                 "equinox": "2000"
             },
-            "command": "dithervisit 2 60 g/r/i/z",
+            "command": "dithervisit 2 60 r/z",
             "estimatedduration": "5m"
         }
     ],
