@@ -11,8 +11,8 @@
             "name": "photometry in r/z",
             "targetcoordinates": {
                 "type": "equatorial",
-                "alpha": "11:08:01.92",
-                "delta": "+03:57:54.0",
+                "alpha": "167.0070d",
+                "delta": "3.9470d",
                 "equinox": "2000"
             },
             "command": "dithervisit 4 60 r/z",
@@ -27,10 +27,10 @@
     "alert": {
         "identifier": "20260213195840",
         "name": "EP260213a",
-        "alpha": "11:08:01.92",
-        "delta": "+03:57:54.0",
+        "alpha": "167.0070d",
+        "delta": "3.9470d",
         "equinox": "2000",
-        "uncertainty": "3.1am",
+        "uncertainty": "10as",
         "eventtimestamp": "2026-02-13T19:58:40.198",
         "alerttimestamp": "2026-02-13T20:04:53.368",
         "enabled": "true"
