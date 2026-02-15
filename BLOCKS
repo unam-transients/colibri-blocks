@@ -40,7 +40,7 @@ load c0 1 3001-m1-tequila
 load d0 2 1000-icecube-251210A day 0 3
 
 # Run the SN every third night.
-load d1 24 2004-canameras-*  day 1 3
+load d1 12 2004-canameras-*  day 1 3
 
 # Put the science blocks at their requested cadence with high priority
 load e0 1 2001-ibarra-*      day 0 3
