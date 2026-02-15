@@ -7,7 +7,7 @@
     "name": "M1",
     "visits": [
         {
-            "identifier": "1",
+            "identifier": "2",
             "name": "polarimetry",
             "targetcoordinates": {
                 "type": "equatorial",
@@ -15,7 +15,19 @@
                 "delta": "+22:01:03",
                 "equinox": "2000"
             },
-            "command": "tequilagridvisit 1 10 1 30",
+            "command": "tequilagridvisit 1 5 2 30",
+            "estimatedduration": "5m"
+        },
+        {
+            "identifier": "3",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "05:34:31.8",
+                "delta": "+22:01:03",
+                "equinox": "2000"
+            },
+            "command": "tequilagridvisit 2 5 2 15",
             "estimatedduration": "5m"
         }
     ],

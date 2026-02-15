@@ -8,21 +8,21 @@
     "visits": [
         {
             "identifier": "0",
-            "name": "photometry in r/z",
+            "name": "photometry in g/r/z",
             "targetcoordinates": {
                 "type": "equatorial",
                 "alpha": "12:45:01.96",
                 "delta": "+23:51:13.1",
                 "equinox": "2000"
             },
-            "command": "dithervisit 2 60 r/z",
-            "estimatedduration": "5m"
+            "command": "dithervisit 3 60 g/r/z",
+            "estimatedduration": "7m"
         }
     ],
     "constraints": {
         "maxskybrightness": "astronomicaltwilight",
-        "minha": "-5.0h",
-        "maxha": "-3.5h"
+        "minha": "-4.0h",
+        "maxha": "-2.0h"
     },
     "alert": {
         "identifier": "20260214220412",
