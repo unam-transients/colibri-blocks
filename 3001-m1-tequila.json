@@ -17,7 +17,7 @@
             },
             "command": "tequilagridvisit 2 5 2 30",
             "estimatedduration": "10m"
-        },
+        }
     ],
     "constraints": {
         "maxskybrightness": "bright",
