@@ -36,6 +36,8 @@ load b0 1 0004-focus-*
 load c0 1 3001-m1-tequila
 load c0 1 0021-standard-unpolarized-06
 
+load c1 1 1000-at2026dbl
+load c1 1 1000-ep260221a
 load c1 1 1000-sb26021801
 
 # Observe IceCube 251210A every third night
