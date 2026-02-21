@@ -15,7 +15,19 @@
                 "delta": "+22:01:03",
                 "equinox": "2000"
             },
-            "command": "tequilagridvisit 2 5 2 30",
+            "command": "tequilagridvisit 2 5 2 30 10as",
+            "estimatedduration": "10m"
+        },
+        {
+            "identifier": "3",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "05:34:31.8",
+                "delta": "+22:01:03",
+                "equinox": "2000"
+            },
+            "command": "tequilagridvisit 2 5 2 30 0as",
             "estimatedduration": "10m"
         }
     ],
