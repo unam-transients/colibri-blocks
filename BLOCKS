@@ -33,16 +33,11 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-load c0 1 3001-m1-tequila
-load c0 1 0021-standard-unpolarized-06
-
-load c1 1 1000-at2026dbl
-
 # Observe IceCube 251210A every third night
 load d0 2 1000-icecube-251210A day 0 3
 
 # Run the SN every third night.
-load d1 24 2004-canameras-*  day 1 3
+load d1 6 2004-canameras-*  day 1 3
 
 # Put the science blocks at their requested cadence with high priority
 load e0 1 2001-ibarra-*      day 0 3
