@@ -1,0 +1,27 @@
+{
+    "project": {
+        "identifier": "3001",
+        "name": "TEQUILA SV"
+    },
+    "identifier": "2",
+    "name": "Mkr501",
+    "visits": [
+        {
+            "identifier": "5",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "16:53:52.21668403",
+                "delta": "+39:45:36.6088754",
+                "equinox": "2000"
+            },
+            "command": "tequilagridvisit 1 5 1 30 15as",
+            "estimatedduration": "3m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "bright",
+        "maxzenithdistance": "45d"
+    },
+    "persistent": "false"
+}
