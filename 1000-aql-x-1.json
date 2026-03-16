@@ -1,0 +1,28 @@
+{
+  "project": {
+    "identifier": "1000",
+    "name": "Aql X-1"
+  },
+  "identifier": "20260208235600",
+  "name": "Aql X-1",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in g/r/i/z/y",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "19:11:16.1",
+        "delta"  : "+00:35:05.9",
+        "equinox": "2000"
+      },
+      "command": "gridvisit 1 5 1 60 g/r/i/z/y",
+      "estimatedduration": "20m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "nauticaltwilight",
+    "maxairmass": "1.7",
+    "minmoondistance": "5d"
+  },
+  "persistent": "false"
+}
