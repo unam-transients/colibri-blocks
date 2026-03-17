@@ -15,7 +15,7 @@
                 "delta": "+22:01:03",
                 "equinox": "2000"
             },
-            "command": "tequilagridvisit 8 5 1 15 0as",
+            "command": "tequilatrackinggridvisit 1 3 1 300 0as",
             "estimatedduration": "15m"
         }
     ],
