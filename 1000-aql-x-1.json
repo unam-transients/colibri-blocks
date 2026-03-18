@@ -11,7 +11,7 @@
       "name": "photometry in r/z",
       "targetcoordinates": {
         "type"   : "equatorial",
-        "alpha"  : "19:11:16.1",
+        "alpha"  : "19:11:16.06",
         "delta"  : "+00:35:05.9",
         "equinox": "2000"
       },
@@ -24,5 +24,16 @@
     "maxairmass": "2.0",
     "minmoondistance": "5d"
   },
-  "persistent": "true"
+  "persistent": "true",
+  "alert": {
+    "identifier": "20260208235600",
+    "name": "Aql X-1",
+    "alpha": "19:11:16.06",
+    "delta": "+00:35:05.9",
+    "equinox": "2000",
+    "uncertainty": "2.0as",
+    "eventtimestamp": "2026-02-08T23:56:00.000",
+    "alerttimestamp": "2026-02-08T23:56:00.000",
+    "enabled": "true"
+  }
 }
