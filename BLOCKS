@@ -33,13 +33,16 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-# Observe IceCube 251210A every third night
-load d0 2 1000-icecube-251210A day 0 3
+# Observe AT 2026fgk each night
+load d0 1 1000-at2026fgk-*
 
-load d0 1 1000-aql-x-1
+# Observe IceCube 251210A every third night
+load d1 2 1000-icecube-251210A day 0 3
+
+load d1 1 1000-aql-x-1
 
 # Run the SN every third night.
-load d1 6 2004-canameras-*
+load d2 6 2004-canameras-*
 
 # TEQUILA SV
 #load d2 1 3001-mrk-500-tequila
