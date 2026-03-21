@@ -39,7 +39,7 @@ load d0 2 1000-icecube-251210A day 0 3
 load d0 1 1000-aql-x-1
 
 # Run the SN every third night.
-load d1 6 2004-canameras-*  day 1 3
+load d1 6 2004-canameras-*
 
 # TEQUILA SV
 #load d2 1 3001-mrk-500-tequila
