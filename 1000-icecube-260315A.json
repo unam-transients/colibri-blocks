@@ -1,0 +1,39 @@
+{
+    "project": {
+        "identifier": "1000",
+        "name": "Alerts"
+    },
+    "identifier": "20260315021906",
+    "name": "IceCube 260315A (AT 2026fpm)",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "photometry in g/r/z",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "11:44:37.99",
+                "delta": "-02:36:13.5",
+                "equinox": "2000"
+            },
+            "command": "dithervisit 8 60 g/r/z",
+            "estimatedduration": "20m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "astronomicaltwilight",
+        "minha": "-1.0h",
+        "maxha": "+1.0h"
+    },
+    "alert": {
+        "identifier": "20260315021906",
+        "name": "IceCube 260315A (AT 2026fpm)",
+        "alpha": "11:44:37.99",
+        "delta": "-02:36:13.5",
+        "equinox": "2000",
+        "uncertainty": "2.0as",
+        "eventtimestamp": "2026-03-15T02:19:06.638",
+        "alerttimestamp": "2026-03-15T11:21:37.210",
+        "enabled": "true"
+    },
+    "persistent": "false"
+}
