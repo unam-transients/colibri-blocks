@@ -33,25 +33,38 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-# Observe AT 2026fgk each night
-load d0 1 1000-at2026fgk-0
-load d0 2 1000-at2026fgk-1
-
-# Observe EP260321a each night
-load d1 2 1000-ep260321a*
+load c00 1 1000-ep260321a-0
+load c01 1 1000-at2026fgk-0
+load c02 1 1000-ep260321a-0
+load c03 1 1000-at2026fgk-0
+load c04 1 1000-ep260321a-0
+load c05 1 1000-at2026fgk-0
+load c06 1 1000-ep260321a-0
+load c07 1 1000-at2026fgk-0
+load c08 1 1000-ep260321a-0
+load c09 1 1000-at2026fgk-0
+load c10 1 1000-ep260321a-0
+load c11 1 1000-at2026fgk-0
+load c12 1 1000-ep260321a-0
+load c13 1 1000-at2026fgk-0
+load c14 1 1000-ep260321a-0
+load c15 1 1000-at2026fgk-0
+load c16 1 1000-ep260321a-0
+load c17 1 1000-at2026fgk-0
 
 # Observe IceCube 251210A every third night
 load d2 2 1000-icecube-251210A day 0 3
 
-load d2 2 1000-icecube-260315A day 0 2
+# Observe IceCube 251315A every third night
+#load d2 2 1000-icecube-260315A day 0 2
 
 load d3 1 1000-aql-x-1
 
 # Run the SN every third night.
-load d4 6 2004-canameras-* day 1 3
+#load d4 6 2004-canameras-* day 1 3
 
 # TEQUILA SV
-load d2 1 3001-mrk-500-tequila
+load d2 3 3001-mrk-500-tequila
 
 # Put the science blocks at their requested cadence with high priority
 load e0 1 2001-ibarra-*      day 0 3
