@@ -33,23 +33,23 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-load c00 1 1000-ep260321a-0
+load c00 1 1000-ep260321a
 load c01 1 1000-at2026fgk-0
-load c02 1 1000-ep260321a-0
+load c02 1 1000-ep260321a
 load c03 1 1000-at2026fgk-0
-load c04 1 1000-ep260321a-0
+load c04 1 1000-ep260321a
 load c05 1 1000-at2026fgk-0
-load c06 1 1000-ep260321a-0
+load c06 1 1000-ep260321a
 load c07 1 1000-at2026fgk-0
-load c08 1 1000-ep260321a-0
+load c08 1 1000-ep260321a
 load c09 1 1000-at2026fgk-0
-load c10 1 1000-ep260321a-0
+load c10 1 1000-ep260321a
 load c11 1 1000-at2026fgk-0
-load c12 1 1000-ep260321a-0
+load c12 1 1000-ep260321a
 load c13 1 1000-at2026fgk-0
-load c14 1 1000-ep260321a-0
+load c14 1 1000-ep260321a
 load c15 1 1000-at2026fgk-0
-load c16 1 1000-ep260321a-0
+load c16 1 1000-ep260321a
 load c17 1 1000-at2026fgk-0
 
 # Observe IceCube 251210A every third night
