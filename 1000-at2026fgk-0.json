@@ -21,7 +21,7 @@
   ],
   "constraints": {
     "maxskybrightness": "nauticaltwilight",
-    "maxha": "-4.0h"
+    "maxha": "-6.0h"
   },
   "alert": {
     "identifier": "20260310051430",
@@ -34,5 +34,5 @@
     "alerttimestamp": "2026-03-21T18:00:00.000",
     "enabled": "true"
   },
-  "persistent": "false"
+  "persistent": "true"
 }
