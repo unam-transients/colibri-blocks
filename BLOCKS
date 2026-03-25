@@ -34,7 +34,14 @@ load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
 load d1 1 1000-at2026fgk-0
-load c1 1 1000-at2026fgk-1
+load d1 1 1000-at2026fgk-1
+load d1 1 1000-ep260321a-0
+load d1 1 1000-ep260321a-1
+load d1 1 1000-ep260321a-tequila
+
+# Polarimetric standards
+load d2 1 0021-*
+load d2 1 0022-*
 
 # Observe IceCube 251210A every third night
 load d2 2 1000-icecube-251210A day 0 3
