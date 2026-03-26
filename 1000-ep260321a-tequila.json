@@ -35,5 +35,5 @@
         "alerttimestamp": "2026-03-21T12:35:45.709",
         "enabled": "true"
     },
-    "persistent": "false"
+    "persistent": "true"
 }
