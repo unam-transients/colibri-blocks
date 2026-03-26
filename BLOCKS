@@ -43,8 +43,8 @@ load d1 1 1000-ep260321a-tequila
 load d1 2 1000-icecube-251210A
 
 # Polarimetric standards
-load d2 1 0021-*
-load d2 1 0022-*
+load d9 1 0021-*
+load d9 1 0022-*
 
 
 # Observe IceCube 251315A every third night
