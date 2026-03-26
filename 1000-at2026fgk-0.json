@@ -8,15 +8,15 @@
   "visits": [
     {
       "identifier": "0",
-      "name": "photometry in g/r/z",
+      "name": "photometry in g/r/i/z",
       "targetcoordinates": {
         "type": "equatorial",
         "alpha": "14:37:16.14",
         "delta": "+71:50:30.3",
         "equinox": "2000"
       },
-      "command": "dithervisit 8 60 g/r/z",
-      "estimatedduration": "20m"
+      "command": "dithervisit 3 60 g/r/i/z",
+      "estimatedduration": "10m"
     }
   ],
   "constraints": {

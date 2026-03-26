@@ -21,7 +21,7 @@
     ],
     "constraints": {
         "maxskybrightness": "astronomicaltwilight",
-        "minha": "-1.0h",
+        "minha": "-0.5h",
         "maxha": "+1.0h"
     },
     "alert": {
