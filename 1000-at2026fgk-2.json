@@ -21,8 +21,8 @@
   ],
   "constraints": {
     "maxskybrightness": "nauticaltwilight",
-    "minha": "-7.0h",
-    "maxha": "-5.0h"
+    "minha": "+0.5h",
+    "maxha": "+2.0h"
   },
   "alert": {
     "identifier": "20260310051430",
