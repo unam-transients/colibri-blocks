@@ -43,7 +43,7 @@ load b0 1 0004-focus-*
 load d4 1 1000-aql-x-1
 
 # Run the SN every third night.
-#load d5 6 2004-canameras-*
+load d5 6 2004-canameras-*
 
 # TEQUILA SV
 load d5 3 3001-mrk-421-tequila
