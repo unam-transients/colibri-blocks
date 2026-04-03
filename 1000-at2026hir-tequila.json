@@ -1,0 +1,37 @@
+{
+    "project": {
+        "identifier": "1000",
+        "name": "Alerts"
+    },
+    "identifier": "20260324041628",
+    "name": "AT 2026hir",
+    "visits": [
+        {
+            "identifier": "1",
+            "name": "photopolarimetry in r",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "08:44:12.38",
+                "delta": "+82:01:11.4",
+                "equinox": "2000"
+            },
+            "command": "tequilagridvisit 1 9 1 60 30as",
+            "estimatedduration": "10m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "nauticaltwilight"
+    },
+    "alert": {
+        "identifier": "20260324041628",
+        "name": "AT 2026hir",
+        "alpha": "08:44:12.38",
+        "delta": "+82:01:11.4",
+        "equinox": "2000",
+        "uncertainty": "2.0as",
+        "eventtimestamp": "2026-03-24T04:16:28.200",
+        "alerttimestamp": "2026-03-24T04:16:51.000",
+        "enabled": "true"
+    },
+    "persistent": "false"
+}
