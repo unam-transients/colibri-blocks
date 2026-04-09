@@ -7,18 +7,6 @@
     "name": "M1",
     "visits": [
         {
-            "identifier": "1001",
-            "name": "focus",
-            "targetcoordinates": {
-                "type": "equatorial",
-                "alpha": "06:59:18.315",
-                "delta": "+25:04:24.79",
-                "equinox": "2000"
-            },
-            "command": "tequilafocusvisit",
-            "estimatedduration": "3m"
-        },
-        {
             "identifier": "4",
             "name": "polarimetry",
             "targetcoordinates": {
