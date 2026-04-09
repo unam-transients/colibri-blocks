@@ -11,8 +11,8 @@
             "name": "focus",
             "targetcoordinates": {
                 "type": "equatorial",
-                "alpha": "06:59:18.315",
-                "delta": "+25:04:24.79",
+                "alpha": "05:01:25.985",
+                "delta": "+24:43:45.09",
                 "equinox": "2000"
             },
             "command": "tequilafocusvisit",
