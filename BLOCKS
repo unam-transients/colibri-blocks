@@ -35,7 +35,7 @@ load b0 1 0004-focus-*
 
 #load d1 2 1000-ep260321a-0
 #load d2 3 1000-at2026gzf-tequila
-load d2 1 3001-m1-tequila
+#load d2 1 3001-m1-tequila
 load d2 1 3001-m42-tequila
 
 #load d3 1 1000-at2026fgk-0
@@ -44,8 +44,9 @@ load d2 1 3001-m42-tequila
 
 load d4 1 1000-aql-x-1
 
-# Run the SN every third night.
-load d4 6 2004-canameras-*
+load d4 4 2008-jacquesson-7837-0
+
+#load d4 6 2004-canameras-*
 
 # TEQUILA SV
 load d5 2 3001-mrk-421-tequila
