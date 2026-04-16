@@ -3,8 +3,8 @@
     "identifier": "2008",
     "name": "LSST transients - Jacquesson"
   },
-  "identifier": "0",
-  "name": "7837",
+  "identifier": "7837",
+  "name": "170252804532207837",
   "visits": [
     {
       "identifier": "0",
@@ -24,6 +24,17 @@
     "maxairmass": "2.0",
     "minzenithdistance": "10d",
     "minmoondistance": "15d"
+  },
+  "alert": {
+      "identifier": "7837",
+      "name": "170252804532207837",
+        "alpha"  : "148.610143d",
+        "delta"  : "+2.469495d",
+      "equinox": "2000",
+      "uncertainty": "2.0as",
+      "eventtimestamp": "2026-03-16T00:00:00",
+      "alerttimestamp": "2026-03-16T00:00:00",
+      "enabled": "true"
   },
   "persistent": "false"
 }
