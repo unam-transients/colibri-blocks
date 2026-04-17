@@ -7,6 +7,18 @@
     "name": "M1",
     "visits": [
         {
+            "identifier": "1001",
+            "name": "focus",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "05:35:16.46",
+                "delta": "-05:23:22.8",
+                "equinox": "2000"
+            },
+            "command": "tequilafocusvisit 0.1",
+            "estimatedduration": "3m"
+        },
+        {
             "identifier": "5",
             "name": "polarimetry",
             "targetcoordinates": {
@@ -16,7 +28,19 @@
                 "equinox": "2000"
             },
             "command": "tequilatrackinggridvisit 1 1 5 1 0as",
-            "estimatedduration": "20m"
+            "estimatedduration": "1m"
+        },
+        {
+            "identifier": "5",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "05:35:16.46",
+                "delta": "-05:23:22.8",
+                "equinox": "2000"
+            },
+            "command": "tequilatrackinggridvisit 1 1 5 0.1 0as",
+            "estimatedduration": "1m"
         }
     ],
     "constraints": {
