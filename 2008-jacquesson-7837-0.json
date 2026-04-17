@@ -15,7 +15,19 @@
         "delta"  : "+2.469495d",
         "equinox": "2000"
       },
-      "command": "dithervisit 15 60 r/z",
+      "command": "dithervisit 4 60 r/z",
+      "estimatedduration": "20m"
+    },
+    {
+      "identifier": "0",
+      "name": "photometry in g/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "148.610143d",
+        "delta"  : "+2.469495d",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 12 60 g/z",
       "estimatedduration": "20m"
     }
   ],
