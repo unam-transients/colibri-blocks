@@ -4,19 +4,19 @@
         "name": "TEQUILA SV"
     },
     "identifier": "1",
-    "name": "M1",
+    "name": "R Mon",
     "visits": [
         {
-            "identifier": "4",
+            "identifier": "6",
             "name": "polarimetry",
             "targetcoordinates": {
                 "type": "equatorial",
-                "alpha": "05:34:31.8",
-                "delta": "+22:01:03",
+                "alpha": "06:39:09.76",
+                "delta": "+08:44:38.4",
                 "equinox": "2000"
             },
-            "command": "tequilatrackinggridvisit 1 8 1 120 0as",
-            "estimatedduration": "20m"
+            "command": "tequilatrackinggridvisit 1 8 1 60 0as",
+            "estimatedduration": "10m"
         }
     ],
     "constraints": {
