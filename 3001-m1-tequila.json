@@ -20,7 +20,8 @@
         }
     ],
     "constraints": {
-        "maxskybrightness": "bright",
+        "maxskybrightness": "nauticaltwilight",
+        "minmoondistance": "1d",
         "maxzenithdistance": "65d"
     },
     "persistent": "false"
