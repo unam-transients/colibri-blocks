@@ -44,7 +44,7 @@ do
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "tequilafocusvisit",
+      "command": "focusvisit",
       "estimatedduration": "1m"
     }
   ],
