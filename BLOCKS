@@ -35,7 +35,7 @@ load b0 1 0004-focus-*
 
 #load d1 2 1000-ep260321a-0
 #load d2 3 1000-at2026gzf-tequila
-#load d2 3 3001-m1-tequila
+load d2 1 3001-m1-tequila
 #load d3 3 3001-r-mon-tequila
 
 #load d3 1 1000-at2026fgk-0
