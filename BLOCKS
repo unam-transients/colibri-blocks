@@ -47,7 +47,7 @@ load d3 2 3001-m1-tequila
 
 #load d4 4 2008-jacquesson-7837-0
 
-#load d4 6 2004-canameras-*
+load d4 6 2004-canameras-*
 
 # TEQUILA SV
 load d5 2 3001-mrk-421-tequila
