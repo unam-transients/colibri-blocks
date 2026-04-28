@@ -50,7 +50,7 @@ load d4 1 1000-aql-x-1
 #load d4 6 2004-canameras-*
 
 # TEQUILA SV
-load d5 2 3001-mrk-421-tequila
+#load d5 2 3001-mrk-421-tequila
 load d5 2 3001-mrk-500-tequila
 
 # Polarimetric standards
