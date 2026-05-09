@@ -12,7 +12,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 5 3 1",
+      "command": "ddragodarksvisit 5 3 1",
       "estimatedduration": "45s"
     },
     {
@@ -21,7 +21,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 10 3 1",
+      "command": "ddragodarksvisit 10 3 1",
       "estimatedduration": "60s"
     },
     {
@@ -30,7 +30,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 15 3 1",
+      "command": "ddragodarksvisit 15 3 1",
       "estimatedduration": "75s"
     },
     {
@@ -39,7 +39,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 30 3 1",
+      "command": "ddragodarksvisit 30 3 1",
       "estimatedduration": "120s"
     },
     {
@@ -48,7 +48,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 45 3 1",
+      "command": "ddragodarksvisit 45 3 1",
       "estimatedduration": "165s"
     },
     {
@@ -57,7 +57,7 @@
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "darksvisit 60 3 1",
+      "command": "ddragodarksvisit 60 3 1",
       "estimatedduration": "210s"
     }  
   ],

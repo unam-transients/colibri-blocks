@@ -1,0 +1,87 @@
+{
+  "project": {
+    "identifier": "0000",
+    "name": "darks"
+  },
+  "identifier": "1",
+  "name": "morning darks",
+  "visits": [
+    {
+      "identifier": "1000",
+      "name": "tequila: open",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "tequilaopenvisit",
+      "estimatedduration": "5s"
+    },
+    {
+      "identifier": "60",
+      "name": "ddrago darks: 60 seconds 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "ddragodarksvisit 60 3 1",
+      "estimatedduration": "210s"
+    },
+    {
+      "identifier": "10",
+      "name": "ddrago darks: 10 seconds 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "ddragodarksvisit 10 3 1",
+      "estimatedduration": "60s"
+    },
+    {
+      "identifier": "5",
+      "name": "ddrago darks: 5 seconds 1x1",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "ddragodarksvisit 5 3 1",
+      "estimatedduration": "45s"
+    },
+    {
+      "identifier": "120",
+      "name": "tequila darks: 120 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "tequiladarksvisit 120 1",
+      "estimatedduration": "120s"
+    },
+    {
+      "identifier": "60",
+      "name": "tequila darks: 60 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "tequiladarksvisit 60 3",
+      "estimatedduration": "180s"
+    },
+    {
+      "identifier": "10",
+      "name": "tequila darks: 10 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "tequiladarksvisit 10 3",
+      "estimatedduration": "30s"
+    },
+    {
+      "identifier": "1001",
+      "name": "tequila: close",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "tequilaclosevisit",
+      "estimatedduration": "5s"
+    }
+  ],
+  "constraints": {
+    // Ensure this block is never selectable.
+    "maxdate": "2000-01-01T00:00:00"
+  },
+  "persistant": true
+}
