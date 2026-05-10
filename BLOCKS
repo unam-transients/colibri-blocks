@@ -95,5 +95,6 @@ load z2 1 0002-biases-1
 load z3 3 0003-darks-1
 load z4 1 0001-twilight-flats-evening-tequila-0
 load z5 1 0001-twilight-flats-evening-ddrago-0
+load z9 1 0003-darks-morning-0
 
 include BLOCKS-targets
