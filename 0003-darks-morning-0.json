@@ -43,6 +43,15 @@
       "estimatedduration": "45s"
     },
     {
+      "identifier": "240",
+      "name": "tequila darks: 240 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "tequiladarksvisit 240 1",
+      "estimatedduration": "240s"
+    },
+    {
       "identifier": "120",
       "name": "tequila darks: 120 seconds",
       "targetcoordinates": {
