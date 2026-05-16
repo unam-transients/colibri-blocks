@@ -1,0 +1,28 @@
+{
+    "project": {
+        "identifier": "3001",
+        "name": "TEQUILA SV"
+    },
+    "identifier": "8",
+    "name": "W50 East",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "19:14:15.00",
+                "delta": "+05:03:00.0",
+                "equinox": "2000"
+            },
+            "command": "tequilatrackinggridvisit 1 1 6 300 0as",
+            "estimatedduration": "31m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "dark",
+        "minzenithdistance": "10d",
+        "maxzenithdistance": "45d"
+    },
+    "persistent": "false"
+}
