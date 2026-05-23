@@ -39,7 +39,7 @@ load b0 1 0004-focus-*
 #load d2 1 3001-m1-with-focus-tequila
 #load d3 2 3001-m1-tequila
 #load d3 3 3001-r-mon-tequila
-load d3 1 3001-w50-tequila-0
+#load d3 1 3001-w50-tequila-0
 
 #load d3 1 1000-at2026fgk-0
 #load d3 1 1000-at2026fgk-1
@@ -56,10 +56,11 @@ load d5 2 3001-mrk-421-tequila
 load d5 2 3001-mrk-500-tequila
 
 # Polarimetric standards
-load d6 1 0021-standard-unpolarized-25
-load d6 1 0021-standard-unpolarized-27
-load d6 1 0022-standard-polarized-08
-load d6 1 0022-standard-polarized-09
+#load d6 1 0021-standard-unpolarized-25
+#load d6 1 0021-standard-unpolarized-27
+#load d6 1 0022-standard-polarized-08
+#load d6 1 0022-standard-polarized-09
+load d6 1 0021-standard-unpolarized-*
 
 # Put the science blocks at their requested cadence with high priority
 load e0 1 2001-ibarra-*      day 0 3

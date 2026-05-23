@@ -44,8 +44,36 @@ echo '
 34 L_115_420        23:42:36.48 +01:05:58.8 11.05
 ' | sed '/^$/d;/^#/d' | while read blockid name alpha delta G
 do
-  suffix=$(printf "%02d" $blockid)
-  cat <<EOF2 >0021-standard-unpolarized-$suffix.json
+  for i in 0 1 2 3 4 5
+  do
+    case $i
+    0)
+      minha=-12h
+      maxha=-4h
+      ;;
+    1)
+      minha=-4h
+      maxha=-2h
+      ;;
+    2)
+      minha=-2h
+      maxha=+0h
+      ;;
+    3)
+      minha=+0h
+      maxha=+2h
+      ;;
+    4)
+      minha=+22h
+      maxha=+4h
+      ;;
+    5)
+      minha=+4h
+      maxha=+12h
+      ;;
+    esac
+    suffix=$(printf "%02d%d" $blockid $i)
+    cat <<EOF2 >0021-standard-unpolarized-$suffix.json
 {
   "project": {
     "identifier": "0021",
@@ -71,10 +99,13 @@ do
     "maxskybrightness": "nauticaltwilight",
     "maxzenithdistance": "50d",
     "minzenithdistance": "10d",
-    "minmoondistance": "15d"
+    "minmoondistance": "15d",
+    "minha": "$minha",
+    "maxha": "$maxha"
   },
   "priority": "10",
   "persistent": "false"
 }
 EOF2
+  done
 done
