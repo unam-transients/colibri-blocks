@@ -97,7 +97,6 @@ do
   ],
   "constraints": {
     "maxskybrightness": "nauticaltwilight",
-    "maxzenithdistance": "50d",
     "minzenithdistance": "10d",
     "minmoondistance": "15d",
     "minha": "$minha",
