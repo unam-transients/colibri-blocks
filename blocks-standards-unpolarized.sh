@@ -50,26 +50,37 @@ do
     0)
       minha=-12h
       maxha=-4h
+      maxzenithdistance=50d
       ;;
     1)
-      minha=-4h
-      maxha=-2h
+      minha=-12h
+      maxha=-4h
+      maxzenithdistance=70d
       ;;
     2)
-      minha=-2h
-      maxha=+0h
+      minha=-4h
+      maxha=-2h
+      maxzenithdistance=70d
       ;;
     3)
-      minha=+0h
-      maxha=+2h
+      minha=-2h
+      maxha=+0h
+      maxzenithdistance=70d
       ;;
     4)
-      minha=+22h
-      maxha=+4h
+      minha=+0h
+      maxha=+2h
+      maxzenithdistance=70d
       ;;
     5)
+      minha=+12h
+      maxha=+4h
+      maxzenithdistance=70d
+      ;;
+    6)
       minha=+4h
       maxha=+12h
+      maxzenithdistance=70d
       ;;
     esac
     suffix=$(printf "%02d%d" $blockid $i)
@@ -100,7 +111,8 @@ do
     "minzenithdistance": "10d",
     "minmoondistance": "15d",
     "minha": "$minha",
-    "maxha": "$maxha"
+    "maxha": "$maxha",
+    "maxzenithdistance": "$maxzenithdistance"
   },
   "priority": "10",
   "persistent": "false"
