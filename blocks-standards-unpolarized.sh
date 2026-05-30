@@ -49,8 +49,8 @@ do
     case $i in
     0)
       minha=-12h
-      maxha=-4h
-      maxzenithdistance=50d
+      maxha=+12h
+      maxzenithdistance=45d
       ;;
     1)
       minha=-12h
@@ -59,25 +59,40 @@ do
       ;;
     2)
       minha=-4h
-      maxha=-2h
+      maxha=-3h
       maxzenithdistance=70d
       ;;
     3)
-      minha=-2h
-      maxha=+0h
+      minha=-3h
+      maxha=-2h
       maxzenithdistance=70d
       ;;
     4)
-      minha=+0h
-      maxha=+2h
+      minha=-1h
+      maxha=+0h
       maxzenithdistance=70d
       ;;
     5)
-      minha=+12h
-      maxha=+4h
+      minha=+0h
+      maxha=+1h
       maxzenithdistance=70d
       ;;
     6)
+      minha=+1h
+      maxha=+2h
+      maxzenithdistance=70d
+      ;;
+    7)
+      minha=+2h
+      maxha=+3h
+      maxzenithdistance=70d
+      ;;
+    8)
+      minha=+3h
+      maxha=+4h
+      maxzenithdistance=70d
+      ;;
+    9)
       minha=+4h
       maxha=+12h
       maxzenithdistance=70d

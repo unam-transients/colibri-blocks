@@ -56,8 +56,19 @@ load d5 2 3001-mrk-421-tequila
 load d5 2 3001-mrk-500-tequila
 
 # Polarimetric standards
-#load d6 1 0021-standard-unpolarized-25
-#load d6 1 0021-standard-unpolarized-27
+load d6 1 0021-standard-unpolarized-18*
+load d6 1 0021-standard-unpolarized-27*
+load d6 1 0021-standard-unpolarized-29*
+load d6 1 0021-standard-unpolarized-32*
+load d7 1 0021-standard-unpolarized-18*
+load d7 1 0021-standard-unpolarized-27*
+load d7 1 0021-standard-unpolarized-29*
+load d7 1 0021-standard-unpolarized-32*
+load d8 1 0021-standard-unpolarized-18*
+load d8 1 0021-standard-unpolarized-27*
+load d8 1 0021-standard-unpolarized-29*
+load d8 1 0021-standard-unpolarized-32*
+
 #load d6 1 0022-standard-polarized-08
 #load d6 1 0022-standard-polarized-09
 #load d6 1 0021-standard-unpolarized-*
