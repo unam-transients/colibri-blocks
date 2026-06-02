@@ -1,0 +1,40 @@
+{
+    "project": {
+        "identifier": "1000",
+        "name": "TEQUILA SV"
+    },
+    "identifier": "20260529210407",
+    "name": "AT 2026nwl",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "photometry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "12:24:25.02",
+                "delta": "+28:47:11.3",
+                "equinox": "2000"
+            },
+            "command": "dithervisit 2 60 g/r/i/z",
+            "estimatedduration": "10m"
+        },
+        {
+            "identifier": "1",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "12:24:25.02",
+                "delta": "+28:47:11.3",
+                "equinox": "2000"
+            },
+            "command": "tequilatrackinggridvisit 1 1 6 60 0as",
+            "estimatedduration": "10m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "nauticaltwilight",
+        "minzenithdistance": "10d",
+        "maxzenithdistance": "60d"
+    },
+    "persistent": "true"
+}
