@@ -1,0 +1,38 @@
+{
+  "project": {
+    "identifier": "1000",
+    "name": "Alerts"
+  },
+  "identifier": "20260531112658",
+  "name": "SN 2026obc",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in g/r/i/z/y",
+      "targetcoordinates": {
+        "type": "equatorial",
+        "alpha": "01:07:49.43",
+        "delta": "+41:59:43.4",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 3 60 g/r/i/z/y",
+      "estimatedduration": "10m"
+    }
+  ],
+  "constraints": {
+    "minskybrightness": "astronomicaltwilight",
+    "maxskybrightness": "astronomicaltwilight"
+  },
+  "alert": {
+    "identifier": "20260531112658",
+    "name": "SN 2026obc",
+    "alpha": "01:07:49.43",
+    "delta": "+41:59:43.4",
+    "equinox": "2000",
+    "uncertainty": "2.0as",
+    "eventtimestamp": "2026-05-31T11:26:58.000",
+    "alerttimestamp": "2026-06-03T02:34:03.134",
+    "enabled": "true"
+  },
+  "persistent": "false"
+}

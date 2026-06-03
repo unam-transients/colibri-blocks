@@ -33,27 +33,8 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-#load d1 2 1000-ep260321a-0
-#load d2 3 1000-at2026gzf-tequila
-#load d2 1 3001-m1-with-ddrago
-#load d2 1 3001-m1-with-focus-tequila
-#load d3 2 3001-m1-tequila
-#load d3 3 3001-r-mon-tequila
-#load d3 1 3001-w50-tequila-0
+load d2 1 1000-sn2026obc-tequila
 
-#load d3 1 1000-at2026fgk-0
-#load d3 1 1000-at2026fgk-1
-#load d3 1 1000-at2026fgk-2
-
-#load d4 1 1000-aql-x-1
-
-#load d4 4 2008-jacquesson-7837-0
-
-#load d4 6 2004-canameras-*
-
-#load d1 1 1000-at2026nwl-tequila
-
-# TEQUILA SV
 load d5 2 3001-mrk-421-tequila
 load d6 2 3001-mrk-500-tequila
 load d6 2 3001-1es-1859+65-tequila
