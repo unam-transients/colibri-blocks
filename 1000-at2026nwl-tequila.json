@@ -15,8 +15,8 @@
                 "delta": "+28:47:11.3",
                 "equinox": "2000"
             },
-            "command": "dithervisit 2 60 g/r/i/z",
-            "estimatedduration": "10m"
+            "command": "dithervisit 2 60 g/r/z",
+            "estimatedduration": "5m"
         },
         {
             "identifier": "1",
@@ -28,7 +28,7 @@
                 "equinox": "2000"
             },
             "command": "tequilatrackinggridvisit 1 1 6 60 0as",
-            "estimatedduration": "10m"
+            "estimatedduration": "7m"
         }
     ],
     "constraints": {
