@@ -1,0 +1,27 @@
+{
+    "project": {
+        "identifier": "3001",
+        "name": "TEQUILA SV"
+    },
+    "identifier": "9",
+    "name": "1ES1959+65",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "299.999383d",
+                "delta": "+65.148514d",
+                "equinox": "2000"
+            },
+            "command": "tequilatrackinggridvisit 1 5 1 30 15as",
+            "estimatedduration": "3m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "bright",
+        "maxzenithdistance": "60d"
+    },
+    "persistent": "false"
+}
