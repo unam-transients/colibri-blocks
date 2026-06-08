@@ -33,7 +33,7 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-load d2 1 1000-sn2026obc-tequila
+load d1 3 2008-jacquesson-9656-0
 
 load d5 2 3001-mrk-421-tequila
 load d6 2 3001-mrk-500-tequila

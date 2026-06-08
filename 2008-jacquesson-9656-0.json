@@ -1,0 +1,42 @@
+{
+  "project": {
+    "identifier": "2008",
+    "name": "LSST transients - Jacquesson"
+  },
+  "identifier": "9656",
+  "name": "17043314089079656",
+  "visits": [
+    {
+      "identifier": "0",
+      "name": "photometry in g/z",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "244.089682d",
+        "delta"  : "-13.827755d",
+        "equinox": "2000"
+      },
+      "command": "dithervisit 8 60 g/z",
+      "estimatedduration": "20m"
+    }
+  ],
+  "constraints": {
+    "maxskybrightness": "astronomicaltwilight",
+    "minha": "-1h",
+    "maxha": "+1h",
+    "maxairmass": "2.0",
+    "minzenithdistance": "10d",
+    "minmoondistance": "15d"
+  },
+  "alert": {
+      "identifier": "9656",
+      "name": "17043314089079656",
+        "alpha"  : "244.089682d",
+        "delta"  : "-13.827755d",
+      "equinox": "2000",
+      "uncertainty": "2.0as",
+      "eventtimestamp": "2026-06-08T00:00:00",
+      "alerttimestamp": "2026-06-08T00:00:00",
+      "enabled": "true"
+  },
+  "persistent": "false"
+}
