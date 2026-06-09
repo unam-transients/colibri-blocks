@@ -15,7 +15,7 @@
                 "delta": "+65.148514d",
                 "equinox": "2000"
             },
-            "command": "tequilatrackinggridvisit 1 5 1 30 15as",
+            "command": "tequilatrackinggridvisit 1 5 2 30 15as",
             "estimatedduration": "3m"
         }
     ],
