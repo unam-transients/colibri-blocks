@@ -21,7 +21,7 @@
     ],
     "constraints": {
         "maxskybrightness": "bright",
-        "maxzenithdistance": "45d"
+        "maxzenithdistance": "60d"
     },
     "persistent": "false"
 }
