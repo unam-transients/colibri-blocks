@@ -38,6 +38,7 @@ load d1 3 2008-jacquesson-9656-0
 load d5 3 3001-1es-1959+65-tequila
 load d6 2 3001-mrk-421-tequila
 load d7 2 3001-mrk-500-tequila
+load d8 1 3001-ngc-6331-v-tequila
 
 # Polarimetric standards
 #load d6 1 0021-standard-unpolarized-18*

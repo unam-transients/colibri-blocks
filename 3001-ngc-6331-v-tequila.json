@@ -1,0 +1,27 @@
+{
+    "project": {
+        "identifier": "3001",
+        "name": "TEQUILA SV"
+    },
+    "identifier": "11",
+    "name": "NGC 6334-V",
+    "visits": [
+        {
+            "identifier": "5",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "17:19:57.55",
+                "delta": "-35:57:47.0",
+                "equinox": "2000"
+            },
+            "command": "tequilagridvisit 1 3 1 300 0as",
+            "estimatedduration": "15m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "bright",
+        "maxzenithdistance": "73d"
+    },
+    "persistent": "false"
+}
