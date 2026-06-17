@@ -38,7 +38,7 @@ load b0 1 0004-focus-*
 load d5 3 3001-1es-1959+65-tequila
 load d6 2 3001-mrk-421-tequila
 load d7 2 3001-mrk-500-tequila
-load d8 1 3001-ngc-6331-v-tequila
+load d8 1 3001-ngc-6334-v-tequila
 
 # Polarimetric standards
 #load d6 1 0021-standard-unpolarized-18*
