@@ -7,6 +7,18 @@
     "name": "NGC 6334-V",
     "visits": [
         {
+            "identifier": "0",
+            "name": "imaging",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "17:19:57.55",
+                "delta": "-35:57:47.0",
+                "equinox": "2000"
+            },
+            "command": "gridvisit 1 5 1 60 r/z",
+            "estimatedduration": "6m"
+        },
+        {
             "identifier": "5",
             "name": "polarimetry",
             "targetcoordinates": {
