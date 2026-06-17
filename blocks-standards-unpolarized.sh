@@ -129,7 +129,7 @@ do
         "delta"  : "$delta",
         "equinox": "2000"
       },
-      "command": "gridvisit 1 1 1 10 r/z",
+      "command": "gridvisit 1 1 1 5 r/z",
       "estimatedduration": "2m"
     }
   ],
