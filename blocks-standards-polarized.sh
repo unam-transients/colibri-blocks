@@ -60,18 +60,6 @@ do
       },
       "command": "tequilagridvisit 1 9 2 10",
       "estimatedduration": "5m"
-    },
-    {
-      "identifier": "1",
-      "name": "standard - unpolarized",
-      "targetcoordinates": {
-        "type"   : "equatorial",
-        "alpha"  : "$alpha",
-        "delta"  : "$delta",
-        "equinox": "2000"
-      },
-      "command": "gridvisit 1 1 1 5 r/z",
-      "estimatedduration": "2m"
     }
   ],
   "constraints": {
@@ -85,3 +73,22 @@ do
 }
 EOF2
 done
+
+exit
+
+# This visit is for measuring the relative efficiency of TEQUILA and DDRAGO.
+#
+# ,
+#     {
+#       "identifier": "1",
+#       "name": "standard - unpolarized",
+#       "targetcoordinates": {
+#         "type"   : "equatorial",
+#         "alpha"  : "$alpha",
+#         "delta"  : "$delta",
+#         "equinox": "2000"
+#       },
+#       "command": "gridvisit 1 1 1 5 r/z",
+#       "estimatedduration": "2m"
+#     }
+  
