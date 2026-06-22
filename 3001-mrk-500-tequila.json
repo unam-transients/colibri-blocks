@@ -21,7 +21,7 @@
     ],
     "constraints": {
         "maxskybrightness": "astronomicaltwilight",
-        "maxzenithdistance": "45d"
+        "maxzenithdistance": "65d"
     },
     "persistent": "false"
 }
