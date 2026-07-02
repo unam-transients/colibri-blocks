@@ -1,0 +1,27 @@
+{
+    "project": {
+        "identifier": "2010",
+        "name": "TEQUILA SV"
+    },
+    "identifier": "0",
+    "name": "Mrk 421",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "11:04:27.31",
+                "delta": "+38:12:31.8",
+                "equinox": "2000"
+            },
+            "command": "tequilagridvisit 1 5 1 30 15as",
+            "estimatedduration": "3m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "astronomicaltwilight",
+        "maxzenithdistance": "65d"
+    },
+    "persistent": "false"
+}
