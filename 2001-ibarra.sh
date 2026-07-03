@@ -32,7 +32,7 @@ do
 {
   "project": {
     "identifier": "2001",
-    "name": "SDSS-V Reververation Mapping AGN with COLIBRI - Ibarra"
+    "name": "FM22 Ibarra"
   },
   "identifier": "$blockidentifier",
   "name": "$field visit $visitidentifier",

@@ -28,18 +28,18 @@
 ## GO Programs
 
 - 2000 Tests
-- 2001 Ibarra
+- 2001 FM22 Ibarra
 - 2002 Tapia
 - 2003 González (AGB)
 - 2004 Canameras
-- 2005 Globus (BBHs)
-- 2007 Pereya (XRBs)
+- 2005 FM24 Globus (BBHs)
+- 2007 FM27 Pereya (XRBs)
 - 2008 Jacquesson
-- 2009 Mera (Symbiotics)
-- 2010 Globus (Mrks)
-- 2011 Watson (Trapezium)
-- 2012 Watson (NGC 2261)
-- 2013 Watson (HH 30)
+- 2009 FM40 Mera (Symbiotics)
+- 2010 FM24 Globus (Mrks)
+- 2011 FM36 Watson (Trapezium)
+- 2012 FM47 Watson (NGC 2261)
+- 2013 FM48 Watson (HH 30)
 
 
 ### 2025B

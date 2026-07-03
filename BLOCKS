@@ -33,41 +33,18 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-#load d1 3 2008-jacquesson-9656-0
-
 load d5 3 3001-1es-1959+65-tequila
-load d6 2 3001-mrk-421-tequila
-load d7 2 3001-mrk-500-tequila
-load d8 1 3001-ngc-6334-v-tequila
 
-# Polarimetric standards
-#load d6 1 0021-standard-unpolarized-18*
-#load d6 1 0021-standard-unpolarized-27*
-#load d6 1 0021-standard-unpolarized-29*
-#load d6 1 0021-standard-unpolarized-32*
-#load d7 1 0021-standard-unpolarized-18*
-#load d7 1 0021-standard-unpolarized-27*
-#load d7 1 0021-standard-unpolarized-29*
-#load d7 1 0021-standard-unpolarized-32*
-#load d8 1 0021-standard-unpolarized-18*
-#load d8 1 0021-standard-unpolarized-27*
-#load d8 1 0021-standard-unpolarized-29*
-#load d8 1 0021-standard-unpolarized-32*
+# Normal GO blocks run at priority e.
 
-#load d6 1 0022-standard-polarized-08*
-#load d6 1 0022-standard-polarized-09*
-#load d6 1 0022-standard-polarized-*
-
-# Put the science blocks at their requested cadence with high priority
 # load e1 1 2009-mera
-load e2 1 2003-gonzalez-*    day 0 2
-load e2 1 2003-gonzalez-1    day 1 2
-# load e3 1 2004-watson-0
-load e4 1 2001-ibarra-*      day 0 3
-load e5 1 2005-globus-*
-load e8 1 2007-pereyra-*     day 0 2
-
-#load e6 1 2006-basa-*        day 0 2
+load   e2 1 2010-globus-*
+load   e3 1 2011-watson-*
+load   e4 1 2001-ibarra-*      day 0 3
+load   e5 1 2005-globus-*
+load   e6 1 2012-watson-*
+load   e7 1 2013-watson-*
+load   e8 1 2007-pereyra-*     day 0 2
 
 # Polarimetric standards
 load k1 1 0021-standard-unpolarized-*0
@@ -79,13 +56,6 @@ load k1 1 0005-photometric-monitor-* day 0 7
 # Run the biases and darks at medium priority
 load k2 1 0002-biases-1
 load k3 3 0003-darks-1
-
-# Put the science blocks once a week at low and reversed priority as fillers
-
-load l0 1 2007-pereyra-*     day 1 2
-load l1 2 2003-gonzalez-*    day 0 7
-load l2 1 2005-globus-*      day 1 2
-load l3 1 2001-ibarra-*      day 1 3
 
 load z0 1 0002-biases-1
 load z1 3 0003-darks-1
