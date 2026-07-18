@@ -3,7 +3,7 @@
         "identifier": "2010",
         "name": "FM16 Globus"
     },
-    "identifier": "1",
+    "identifier": "2",
     "name": "Mrk 501",
     "visits": [
         {
@@ -34,7 +34,8 @@
     "constraints": {
         "maxskybrightness": "astronomicaltwilight",
         "maxzenithdistance": "65d",
-        "maxha": "+2h"
+        "minha": "+3h"
+
     },
     "persistent": "false"
 }
