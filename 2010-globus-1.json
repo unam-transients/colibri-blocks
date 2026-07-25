@@ -34,7 +34,7 @@
     "constraints": {
         "maxskybrightness": "astronomicaltwilight",
         "maxzenithdistance": "65d",
-        "maxha": "+2h"
+        "maxha": "+1h"
     },
     "persistent": "false"
 }
