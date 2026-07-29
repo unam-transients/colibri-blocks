@@ -35,6 +35,7 @@ load b0 1 0004-focus-*
 
 #load d4 2 3001-ngc-6334-v
 load d5 3 3001-1es-1959+65-tequila
+load d6 2 3001-leda-154054-tequila
 
 # Normal GO blocks run at priority e.
 

@@ -1,0 +1,27 @@
+{
+    "project": {
+        "identifier": "3001",
+        "name": "TEQUILA SV"
+    },
+    "identifier": "12",
+    "name": "LEDA 154054",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "142.490554175396d",
+                "delta": "+1.4656689087685d",
+                "equinox": "2000"
+            },
+            "command": "tequilatrackinggridvisit 1 9 1 60 15as",
+            "estimatedduration": "10m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "bright",
+        "maxzenithdistance": "60d"
+    },
+    "persistent": "false"
+}
