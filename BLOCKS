@@ -26,7 +26,7 @@
 # the block files into the queue if M = D mod N, in which D is the day of the
 # year (1 to 366).
 #
-# - date YYYMMDD. Carry out the action on the specified UTC date.
+# - date YYYYMMDD. Carry out the action on the specified UTC date.
 #
 # If no time specification is given, the action is carried out every day.
 
@@ -35,7 +35,10 @@ load b0 1 0004-focus-*
 
 #load d4 2 3001-ngc-6334-v
 load d5 3 3001-1es-1959+65-tequila
-load d6 2 3001-leda-154054-tequila
+load d6 10 3001-leda-154054-tequila date 20260809
+load d7 10 3001-leda-1464418-tequila date 20260809
+load d8 10 3001-leda-15222560-tequila date 20260809
+load d9 10 3001-J160132-tequila date 20260809
 
 # Normal GO blocks run at priority e.
 
