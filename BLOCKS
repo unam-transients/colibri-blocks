@@ -34,6 +34,7 @@ load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
 #load d4 2 3001-ngc-6334-v
+load d4 3 3001-ngc-1275-tequila
 load d5 3 3001-1es-1959+65-tequila
 load d6 10 3001-leda-154054-tequila date 20260809
 load d7 10 3001-leda-1464418-tequila date 20260809
