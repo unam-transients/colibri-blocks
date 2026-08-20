@@ -1,0 +1,39 @@
+{
+    "project": {
+        "identifier": "2013",
+        "name": "HH 30"
+    },
+    "identifier": "0",
+    "name": "HH 30",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "imaging",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "04:31:37.51",
+                "delta": "+18:12:24.4",
+                "equinox": "2000"
+            },
+            "command": "gridvisit 1 2 1 30 g/r/i/z",
+            "estimatedduration": "4m"
+        },
+        {
+            "identifier": "1",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "04:31:37.51",
+                "delta": "+18:12:24.4",
+                "equinox": "2000"
+            },
+            "command": "tequilagridvisit 1 10 1 60 30as",
+            "estimatedduration": "12m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "astronomicaltwilight",
+        "maxzenithdistance": "60d"
+    },
+    "persistent": "false"
+}
