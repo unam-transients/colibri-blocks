@@ -1,0 +1,40 @@
+{
+    "project": {
+        "identifier": "1000",
+        "name": "GRS 1915+105"
+    },
+    "identifier": "20260820000000",
+    "name": "GRS 1915-105",
+    "visits": [
+        {
+            "identifier": "0",
+            "name": "photometry in i/zy",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "19:15:11.56",
+                "delta": "+10:56:44.9",
+                "equinox": "2000"
+            },
+            "command": "dithervisit 12 60 i/zy",
+            "estimatedduration": "15m"
+        }
+    ],
+    "constraints": {
+        "minskybrightness": "nauticaltwilight",
+        "maxskybrightness": "nauticaltwilight",
+        "maxairmass": "2.0",
+        "minmoondistance": "5d"
+    },
+    "persistent": "false",
+    "alert": {
+        "identifier": "20260820000000",
+        "name": "GRS 1915+105",
+        "alpha": "19:15:11.56",
+        "delta": "+10:56:44.9",
+        "equinox": "2000",
+        "uncertainty": "2.0as",
+        "eventtimestamp": "2026-08-20T00:00:00.000",
+        "alerttimestamp": "2026-08-20T00:00:00.000",
+        "enabled": "true"
+    }
+}
