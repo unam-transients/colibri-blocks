@@ -3,7 +3,7 @@
         "identifier": "1000",
         "name": "GRS 1915+105"
     },
-    "identifier": "20260820000000",
+    "identifier": "20260705022952",
     "name": "GRS 1915-105",
     "visits": [
         {
@@ -27,7 +27,7 @@
     },
     "persistent": "false",
     "alert": {
-        "identifier": "20260820000000",
+        "identifier": "20260705022952",
         "name": "GRS 1915+105",
         "alpha": "19:15:11.56",
         "delta": "+10:56:44.9",
