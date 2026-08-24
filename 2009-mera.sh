@@ -1,4 +1,4 @@
-rm -f 2010-mera-*.json
+rm -f 2009-mera-*.json
 
 if test "$1" = "clean"
 then
@@ -7,11 +7,11 @@ fi
 
 while read blockidentifier alpha delta sky mag
 do
-  cat <<EOF >2010-mera-$blockidentifier.json
+  cat <<EOF >2009-mera-$blockidentifier.json
 {
   "project": {
-    "identifier": "2010",
-    "name": "2010 FM40 Mera"
+    "identifier": "2009",
+    "name": "2009 FM40 Mera"
   },
   "identifier": "$blockidentifier",
   "name": "target $blockidentifier",
@@ -26,7 +26,7 @@ do
         "equinox": "2000"
       },
       "command": "gridvisit 15 1 1 40 {{g zy}}",
-      "estimatedduration": "3m"
+      "estimatedduration": "15m"
     }
   ],
   "constraints": {
