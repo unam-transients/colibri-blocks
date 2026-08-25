@@ -33,6 +33,12 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
+# High-priority GO
+
+load c1 6 2009-mera-08 date 20260826
+
+# Tequila SV
+
 load d3 1 2013-hh-30
 load d4 3 3001-ngc-1275-tequila
 load d5 3 3001-1es-1959+65-tequila
@@ -40,7 +46,6 @@ load d6 2 1000-grs-1915+105 day 1 3
 
 # Normal GO blocks run at priority e.
 
-load e1 6 2009-mera-07 date 20260825
 load   e2 1 2010-globus-*
 load   e3 1 2011-watson-*
 load   e4 1 2001-ibarra-*      day 0 3
