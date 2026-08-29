@@ -35,7 +35,7 @@ load b0 1 0004-focus-*
 
 # High-priority GO
 
-load c1 6 2009-mera-08 date 20260826
+load c1 6 2009-mera-09 date 20260829
 
 # Tequila SV
 
