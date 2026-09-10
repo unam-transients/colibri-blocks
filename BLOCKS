@@ -75,4 +75,4 @@
 
 #include BLOCKS-targets
 
-load z 1 0008-pointing-map
+load z 1 0008-pointing-map-*
