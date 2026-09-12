@@ -59,7 +59,7 @@ load b0 1 0004-focus-*
 #load k1 1 0022-standard-polarized-*0
 
 # Run the photometric monitor at medium priority once per week
-load k1 1 0005-photometric-monitor-* day 0 7
+#load k1 1 0005-photometric-monitor-* day 0 7
 
 # Run the biases and darks at medium priority
 #load k2 1 0002-biases-1
