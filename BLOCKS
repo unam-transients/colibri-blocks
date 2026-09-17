@@ -39,40 +39,40 @@ load b0 1 0004-focus-*
 
 # Tequila SV
 
-#load d3 1 2013-hh-30
-#load d4 3 3001-ngc-1275-tequila
-#load d5 3 3001-1es-1959+65-tequila
-#load d6 2 1000-grs-1915+105 day 1 3
+load d3 1 2013-hh-30
+load d4 3 3001-ngc-1275-tequila
+load d5 3 3001-1es-1959+65-tequila
+load d6 2 1000-grs-1915+105 day 1 3
 
 # Normal GO blocks run at priority e.
 
-#load   e2 1 2010-globus-*
-#load   e3 1 2011-watson-*
-#load   e4 1 2001-ibarra-*      day 0 3
-#load   e5 1 2005-globus-*
-#load   e6 1 2012-watson-*
-#load   e7 1 2013-watson-*
-#load   e8 1 2007-pereyra-*     day 0 2
+load   e2 1 2010-globus-*
+load   e3 1 2011-watson-*
+load   e4 1 2001-ibarra-*      day 0 3
+load   e5 1 2005-globus-*
+load   e6 1 2012-watson-*
+load   e7 1 2013-watson-*
+load   e8 1 2007-pereyra-*     day 0 2
 
 # Polarimetric standards
-#load k1 1 0021-standard-unpolarized-*0
-#load k1 1 0022-standard-polarized-*0
+load k1 1 0021-standard-unpolarized-*0
+load k1 1 0022-standard-polarized-*0
 
 # Run the photometric monitor at medium priority once per week
-#load k1 1 0005-photometric-monitor-* day 0 7
+load k1 1 0005-photometric-monitor-* day 0 7
 
 # Run the biases and darks at medium priority
-#load k2 1 0002-biases-1
-#load k3 3 0003-darks-1
+load k2 1 0002-biases-1
+load k3 3 0003-darks-1
 
-#load z0 1 0002-biases-1
-#load z1 3 0003-darks-1
-#load z2 1 0002-biases-1
-#load z3 3 0003-darks-1
-#load z4 1 0001-twilight-flats-evening-tequila-0
-#load z5 1 0001-twilight-flats-evening-ddrago-0
-#load z9 1 0003-darks-morning-0
+load z0 1 0002-biases-1
+load z1 3 0003-darks-1
+load z2 1 0002-biases-1
+load z3 3 0003-darks-1
+load z4 1 0001-twilight-flats-evening-tequila-0
+load z5 1 0001-twilight-flats-evening-ddrago-0
+load z9 1 0003-darks-morning-0
 
-#include BLOCKS-targets
+include BLOCKS-targets
 
 load z 1 0008-pointing-map-*
