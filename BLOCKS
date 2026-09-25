@@ -33,6 +33,8 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
+load c 1 0008-pointing-map-*
+
 # High-priority GO
 
 #load c1 6 2009-mera-09 date 20260829
@@ -40,7 +42,7 @@ load b0 1 0004-focus-*
 # Tequila SV
 
 load d3 1 2013-hh-30
-load d4 3 3001-ngc-1275-tequila
+#load d4 3 3001-ngc-1275-tequila
 load d5 3 3001-1es-1959+65-tequila
 load d6 2 1000-grs-1915+105 day 1 3
 
@@ -75,4 +77,3 @@ load z9 1 0003-darks-morning-0
 
 include BLOCKS-targets
 
-load z 1 0008-pointing-map-*
