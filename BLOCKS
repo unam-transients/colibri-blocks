@@ -33,8 +33,6 @@
 load a0 1 0004-initial-focus-*
 load b0 1 0004-focus-*
 
-load c 1 0008-pointing-map-*
-
 # High-priority GO
 
 #load c1 6 2009-mera-09 date 20260829
