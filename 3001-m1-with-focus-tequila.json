@@ -1,0 +1,40 @@
+{
+    "project": {
+        "identifier": "3001",
+        "name": "TEQUILA SV"
+    },
+    "identifier": "1",
+    "name": "M1",
+    "visits": [
+        {
+            "identifier": "1000",
+            "name": "focus",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "06:00:00.118",
+                "delta": "+24:51:57.33",
+                "equinox": "2000"
+            },
+            "command": "tequilafocusvisit",
+            "estimatedduration": "3m"
+        },
+        {
+            "identifier": "4",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "05:34:31.8",
+                "delta": "+22:01:03",
+                "equinox": "2000"
+            },
+            "command": "tequilatrackinggridvisit 1 5 1 300 0as",
+            "estimatedduration": "25m"
+        }
+    ],
+    "constraints": {
+        "maxskybrightness": "nauticaltwilight",
+        "minmoondistance": "1d",
+        "maxairmass": "1.4"
+    },
+    "persistent": "false"
+}
