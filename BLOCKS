@@ -37,6 +37,8 @@ load b0 1 0004-focus-*
 
 #load c1 6 2009-mera-09 date 20260829
 
+load c0 1 0007-tokovinintest
+
 # Tequila SV
 
 load d2 2 3001-m1-with-focus-tequila
