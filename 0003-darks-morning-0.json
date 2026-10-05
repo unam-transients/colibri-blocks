@@ -43,22 +43,13 @@
       "estimatedduration": "45s"
     },
     {
-      "identifier": "240",
-      "name": "tequila darks: 240 seconds",
+      "identifier": "300",
+      "name": "tequila darks: 300 seconds",
       "targetcoordinates": {
         "type": "idle"
       },
-      "command": "tequiladarksvisit 240 1",
-      "estimatedduration": "240s"
-    },
-    {
-      "identifier": "120",
-      "name": "tequila darks: 120 seconds",
-      "targetcoordinates": {
-        "type": "idle"
-      },
-      "command": "tequiladarksvisit 120 1",
-      "estimatedduration": "120s"
+      "command": "tequiladarksvisit 300 1",
+      "estimatedduration": "300s"
     },
     {
       "identifier": "60",
@@ -67,6 +58,15 @@
         "type": "idle"
       },
       "command": "tequiladarksvisit 60 3",
+      "estimatedduration": "180s"
+    },
+    {
+      "identifier": "30",
+      "name": "tequila darks: 30 seconds",
+      "targetcoordinates": {
+        "type": "idle"
+      },
+      "command": "tequiladarksvisit 30 6",
       "estimatedduration": "180s"
     },
     {
