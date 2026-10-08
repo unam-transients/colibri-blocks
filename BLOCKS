@@ -36,7 +36,7 @@ load b0 1 0004-focus-*
 # High-priority GO
 
 unload c1 * 2009-mera-*
-load c1 6 2009-mera-18 date 20261008
+load c1 6 2009-mera-18 date 20261009
 
 #load c0 1 0007-tokovinintest-*
 
