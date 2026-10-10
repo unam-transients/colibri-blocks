@@ -119,6 +119,18 @@ do
       },
       "command": "tequilagridvisit 1 9 2 10",
       "estimatedduration": "5m"
+    },
+    {
+      "identifier": "1",
+      "name": "standard - unpolarized",
+      "targetcoordinates": {
+        "type"   : "equatorial",
+        "alpha"  : "$alpha",
+        "delta"  : "$delta",
+        "equinox": "2000"
+      },
+      "command": "tequilagridvisit 1 1 1 300",
+      "estimatedduration": "5m"
     }
   ],
   "constraints": {
