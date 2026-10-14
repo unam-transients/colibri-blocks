@@ -27,8 +27,8 @@
                 "delta": "+08:45:00",
                 "equinox": "2000"
             },
-            "command": "tequilatrackinggridvisit 1 5 1 300 30as",
-            "estimatedduration": "25m"
+            "command": "tequilatrackinggridvisit 1 5 2 60 30as",
+            "estimatedduration": "12m"
         }
     ],
     "constraints": {

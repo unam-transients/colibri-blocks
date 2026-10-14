@@ -38,7 +38,7 @@ do
   "persistent": "false"
 }
 EOF
-    echo "    [ $alpha, $delta, \"2009-$blockidentifier Mera ($sky $mag)\", None, None, 10, 60, \"dashed\"],"
+    #echo "    [ $alpha, $delta, \"2009-$blockidentifier Mera ($sky $mag)\", None, None, 10, 60, \"dashed\"],"
 done <<EOF
 00 102.022436 0.084417  bright 13.0
 01 103.537926 2.030414  bright 15.6

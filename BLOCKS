@@ -36,16 +36,17 @@ load b0 1 0004-focus-*
 # High-priority GO
 
 unload c1 * 2009-mera-*
-load c1 6 2009-mera-15 date 20261014
+load c1 6 2009-mera-11 date 20261015
 
 #load c0 1 0007-tokovinintest-*
 
 # Tequila SV
 
 load d1 1 2013-hh-30
-load d2 3 3001-ngc-1275-tequila
-load d3 1 3001-ngc-2261-tequila
-load d4 1 3001-m1-tequila
+load d3 1 3001-ngc-2261-tequila   day 0 2
+load d3 1 3001-m1-tequila         day 1 2
+load d2 1 3001-ngc-1275-tequila
+
 load d5 2 1000-grs-1915+105 day 1 3
 
 # Normal GO blocks run at priority e.
@@ -54,8 +55,8 @@ load   e2 1 2010-globus-*
 load   e3 1 2011-watson-*
 load   e4 1 2001-ibarra-*      day 0 3
 load   e5 1 2005-globus-*
-load   e6 1 2012-watson-*
-load   e7 1 2013-watson-*
+load   e6 1 2012-watson-*      day 1 2
+#load   e7 1 2013-watson-*
 load   e8 1 2007-pereyra-*     day 0 2
 
 # Polarimetric standards
