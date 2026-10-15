@@ -7,7 +7,7 @@
     "name": "NGC 2261",
     "visits": [
         {
-            "identifier": "1",
+            "identifier": "2",
             "name": "polarimetry",
             "targetcoordinates": {
                 "type": "equatorial",
@@ -15,8 +15,32 @@
                 "delta": "+08:45:00",
                 "equinox": "2000"
             },
-            "command": "tequilatrackinggridvisit 1 5 1 300 0as",
-            "estimatedduration": "25m"
+            "command": "tequilatrackinggridvisit 1 5 1 60 0as",
+            "estimatedduration": "6m"
+        },
+        {
+            "identifier": "3",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "06:39:10.0",
+                "delta": "+08:45:00",
+                "equinox": "2000"
+            },
+            "command": "tequilatrackinggridvisit 1 5 1 120 0as",
+            "estimatedduration": "11m"
+        },
+        {
+            "identifier": "4",
+            "name": "polarimetry",
+            "targetcoordinates": {
+                "type": "equatorial",
+                "alpha": "06:39:10.0",
+                "delta": "+08:45:00",
+                "equinox": "2000"
+            },
+            "command": "tequilatrackinggridvisit 1 5 1 240 0as",
+            "estimatedduration": "21m"
         }
     ],
     "constraints": {
