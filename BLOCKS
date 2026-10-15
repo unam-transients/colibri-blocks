@@ -42,7 +42,7 @@ load b0 1 0004-focus-*
 
 # Tequila SV
 
-load d1 3 2013-watson
+load d1 3 2013-watson-*
 load d3 3 3001-ngc-2261-tequila   day 0 2
 #load d3 3 3001-m1-tequila         day 1 2
 load d3 3 3001-m1-tequila
