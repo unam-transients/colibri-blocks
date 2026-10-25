@@ -32,7 +32,7 @@
         }
     ],
     "constraints": {
-        "maxskybrightness": "nauticaltwilight",
+        "maxskybrightness": "dark",
         "minmoondistance": "1d",
         "maxairmass": "2.0"
     },
