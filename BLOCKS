@@ -43,8 +43,8 @@ load c1 6 2009-mera-11 date 20261016
 # Tequila SV
 
 load d1 3 2013-watson-*
-load d2 3 3001-s5-1044-tequila   
-load d3 3 3001-m1-tequila
+load d2 2 3001-s5-1044-tequila   
+load d3 2 3001-ngc-2261-tequila
 load d4 1 3001-ngc-1275-tequila
 
 load d5 2 1000-grs-1915+105 day 1 3
