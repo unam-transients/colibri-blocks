@@ -25,7 +25,7 @@ do
         "delta"  : "${delta}d",
         "equinox": "2000"
       },
-      "command": "gridvisit 15 1 1 40 {{g zy}}",
+      "command": "gridvisit 25 1 1 30 {{g zy}}",
       "estimatedduration": "15m"
     }
   ],
