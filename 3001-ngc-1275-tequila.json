@@ -20,7 +20,7 @@
         },
         {
             "identifier": "1",
-            "name": "photomometry",
+            "name": "photometry",
             "targetcoordinates": {
                 "type": "equatorial",
                 "alpha": "03:19:48.16",
