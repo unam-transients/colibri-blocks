@@ -14,7 +14,7 @@ do
     "name": "2009 FM40 Mera"
   },
   "identifier": "$blockidentifier",
-  "name": "target $blockidentifier",
+  "name": "Mera target $blockidentifier",
   "visits": [
     {
       "identifier": "0",
