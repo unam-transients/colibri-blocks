@@ -32,7 +32,7 @@ do
   "constraints": {
     "maxskybrightness": "$sky",
     "minzenithdistance": "10d",
-    "maxairmass": "2.0",
+    "minha": "+0h",
     "minmoondistance": "15d"
   },
   "persistent": "false"
