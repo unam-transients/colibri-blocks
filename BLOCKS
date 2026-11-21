@@ -38,12 +38,10 @@ load b0 1 0004-focus-*
 unload c1 * 2009-mera-*
 load c1 6 2009-mera-05 date 20261121
 
-#load c0 1 0007-tokovinintest-*
-
 # Tequila SV
 
-load d1 3 2013-watson-*
-load d2 3 3001-m1-tequila
+load d1 3 3001-m1-tequila
+load d2 3 2013-watson-*
 #load d3 2 3001-ngc-2261-tequila
 #load d4 1 3001-ngc-1275-tequila
 
